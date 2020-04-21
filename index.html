@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/79ac0a630f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- Nav Bar -->
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="Eric Hellmuth Image">
+      </div>
+      <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#">Work</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    </header>
+
+    <!-- Hero unit -->
+    <main>
+      <h1>Hey, I am Eric Hellmuth</h1>
+      <h2>Digital Product Designer</h2>
+      <div class="border"></div>
+      <h2>Upstate New York</h2>
+      <p>Most Recent Work</p>
+      <img src="images/down_arrow.png" alt="Down Arrow Button">
+    </main>
+
+    <!-- Case Studies **These are coded 2 different ways for desktop and mobile -->
+
+    <!-- TuneCan Mobile -->
+    <section class="work-mobile">
+      <div class="project">
+        <h6>01</h6>
+        <h1>TuneCan Music</h1>
+        <p>Your music components anywhere, anytime, all on the cloud</p>
+        <img src="images/tunecan_mobile.png" alt="Case Study Image">
+          <form action="tunecan.html" method="post">
+            <button class="hex">&#8250;</button>
+          </form>
+      </div>
+
+    <!-- BusyBus Mobile -->
+
+      <div class="project">
+        <h6>02</h6>
+        <h1>BusyBus</h1>
+        <p>Pulling out all the stops to make your daily commute a breeze</p>
+        <img src="images/busybus_mobile.png" alt="Case Study Image">
+          <form action="busybus.html" method="post">
+            <button class="hex">&#8250;</button>
+          </form>
+      </div>
+
+    <!-- Points Mobile -->
+      <div class="project">
+        <h6>03</h6>
+        <h1>Points</h1>
+        <p>Points is a game with friends to give kudos where kudos are due</p>
+        <img src="images/points_mobile.png" alt="Case Study Image">
+          <form action="points.html" method="post">
+            <button class="hex">&#8250;</button>
+          </form>
+      </div>
+    </section>
+
+    <!-- TuneCan Desktop -->
+    <section class="work-desktop">
+
+      <div class="project">
+        <div class="left">
+          <img src="images/tunecan_mobile.png" alt="Case Study Image">
+        </div>
+        <form action="tunecan.html" method="post">
+          <button class="hex">&#8250;</button>
+        </form>
+        <div class="right">
+          <h6>01</h6>
+          <h1>TuneCan Music</h1>
+          <p>Your music components anywhere, anytime, all on the cloud</p>
+          <form action="tunecan.html" method="post">
+            <button class="explore">Explore</button>
+          </form>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- BusyBus Desktop -->
+    <section class="work-desktop">
+
+      <div class="project">
+
+        <div class="left">
+          <h6>02</h6>
+          <h1>BusyBus</h1>
+          <p>Pulling out all the stops to make your daily commute a breeze</p>
+          <form action="busybus.html" method="post">
+            <button class="explore">Explore</button>
+          </form>
+        </div>
+          <form action="busybus.html" method="post">
+            <button class="hex">&#8250;</button>
+          </form>
+          <div class="right">
+            <img src="images/busybus_desktop.png" alt="Case Study Image">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Points Desktop -->
+    <section class="work-desktop">
+
+      <div class="project">
+        <div class="left">
+          <img src="images/points_desktop.png" alt="Case Study Image">
+        </div>
+        <form action="points.html" method="post">
+          <button class="hex">&#8250;</button>
+        </form>
+        <div class="right">
+          <h6>03</h6>
+          <h1>Points</h1>
+          <p>Points is a game with friends to give kudos where kudos are due.</p>
+          <form action="points.html" method="post">
+            <button class="explore">Explore</button>
+          </form>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- My Design Process -->
+    <section class="designProcess">
+        <h2>My Design Process</h2>
+        <div class="three-col">
+            <img src="images/flask_icon" alt="research icon">
+            <h3>Research</h3>
+            <ul>
+              <li>User Surveys</li>
+              <li>Competitive Analysis</li>
+              <li>Personas</li>
+              <li>User Stories</li>
+            </ul>
+        </div>
+
+        <div class="three-col">
+            <img src="images/info_icon" alt="info icon">
+            <h3>Information Architecture</h3>
+            <ul>
+              <li>User Flows</li>
+              <li>Site Maps</li>
+              <li>Content Strategy</li>
+            </ul>
+        </div>
+
+        <div class="three-col">
+            <img src="images/design_icon" alt="design icon">
+            <h3>Visual Design</h3>
+            <ul>
+              <li>Branding</li>
+              <li>Color Palettes</li>
+              <li>Low and High Fidelity Mockups</li>
+              <li>User Testing</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>Testimonials</h2>
+
+        <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="images/testimonial_1" alt="testimonial picture">
+          <div class="name">Name</div>
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="images/testimonial_2" alt="testimonial picture">
+          <div class="name">Name</div>
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="images/testimonial_3" alt="testimonial picture">
+          <div class="name">Name</div>
+          <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev hex" onclick="plusSlides(-1)">&#8250;</a>
+        <a class="next hex" onclick="plusSlides(1)">&#8250;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+
+    </section>
+
+    <!-- Bottom Footer -->
+    <footer>
+        <p>Thanks for stopping by! If you want to chat or connect please do not hesitate to reach out</p>
+        <p>See you around!</p>
+        <form action="busybus.html" method="post">
+            <button class="yello_ghost">Contact</button>
+        </form>
+        <div class="contact-icons">
+          <i class="fas fa-envelope"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-github"></i>
+
+        </div>
+
+
+    </footer>
+
+<!-- Script for Nav Bar curtain menu -->
+    <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+
+<!-- Script for testimonials -->
+    <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+  </body>
+</html>
