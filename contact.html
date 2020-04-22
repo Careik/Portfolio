@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/79ac0a630f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- Nav Bar -->
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="Eric Hellmuth Image">
+      </div>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="index.html">Work</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    </header>
+
+    <main>
+      <h1>Contact</h1>
+      <h2>Have a project you want to work on?</h2>
+      <h2>Let's work together!</h2>
+    </main>
+
+    <form action="/action_page.php">
+      <input type="text" id="fullName" name="fullName" value="Your name"><br>
+      <input type="text" id="email" name="email" value="Your email"><br>
+      <input type="text" id="message" name="message" value="Message..."><br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+    <!-- Bottom Footer -->
+    <footer>
+        <p>Thanks for stopping by! If you want to chat or connect please do not hesitate to reach out</p>
+        <p>See you around!</p>
+        <form action="busybus.html" method="post">
+            <button class="yello_ghost">Contact</button>
+        </form>
+        <div class="contact-icons">
+          <i class="fas fa-envelope"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-github"></i>
+        </div>
+    </footer>
+
+    <!-- Script for Nav Bar curtain menu -->
+    <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+  </body>
+</html>
