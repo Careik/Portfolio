@@ -8,11 +8,58 @@ html {
 
 body {
   font-family: 'Lato', sans-serif;
+  background-color: #241F20;
 }
 
-h1{
-  font-family: 'Alfa Slab One', cursive;
+header {
+  color: #FCFCFC;
 }
+
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3.6rem;
+  color: #FCFCFC;
+}
+
+h2 {
+  color: #FCFCFC;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+h3 {
+  color: #FCFCFC;
+}
+
+ul {
+  color: #FCFCFC;
+}
+
+h6 {
+  color: #FCFCFC;
+}
+
+p{
+  color:#FCFCFC;
+  font-weight: 400;
+}
+
+/* Homepage CSS */
+
+.logo {
+  display: inline-block;
+}
+
+
+
+
+
+.border {
+  color: #FCFCFC;
+}
+
+
+
 /* Nav Bar */
 .overlay {
   height: 100%;
@@ -33,6 +80,7 @@ h1{
   width: 100%;
   text-align: center;
   margin-top: 30px;
+  color: #FCFCFC
 }
 
 .overlay a {
@@ -54,6 +102,8 @@ h1{
   right: 45px;
   font-size: 60px;
 }
+
+
 
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
