@@ -9,6 +9,7 @@ html {
 body {
   font-family: 'Lato', sans-serif;
   background-color: #241F20;
+  padding: 3.5rem 3.5rem 3.5rem 3.5rem;
 }
 
 header {
@@ -19,6 +20,7 @@ h1 {
   font-family: 'Alfa Slab One', cursive;
   font-size: 3.6rem;
   color: #FCFCFC;
+  line-height: 5rem;
 }
 
 h2 {
@@ -29,20 +31,43 @@ h2 {
 
 h3 {
   color: #FCFCFC;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+h4 {
+  color: #FCFCFC;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h5 {
+  color: #FCFCFC;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+h6 {
+  color: #FCFCFC;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+p{
+  color:#FCFCFC;
+  font-size: 1.6rem;
+  font-weight: 400;
 }
 
 ul {
   color: #FCFCFC;
 }
 
-h6 {
-  color: #FCFCFC;
+.width {
+  width: 100%;
 }
 
-p{
-  color:#FCFCFC;
-  font-weight: 400;
-}
+
 
 /* Homepage CSS */
 
@@ -50,14 +75,69 @@ p{
   display: inline-block;
 }
 
-
-
-
+.border {
+  width: 10rem;
+  border-bottom: .1rem solid;
+}
 
 .border {
   color: #FCFCFC;
 }
 
+.burgerMenu {
+  font-size:30px;
+  cursor: pointer;
+  float: right;
+}
+
+.home-title {
+  padding-top: 7rem;
+  padding-bottom: 8rem;
+}
+
+.home-jobTitle {
+  padding-bottom: 1.5rem;
+}
+
+.home-location {
+  padding-top: .8rem;
+}
+
+.center {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-centered {
+  text-align: center;
+  padding-top: 25.5rem;
+  padding-bottom:2rem;
+}
+
+.down_arrow {
+  padding-bottom: 10.3rem;
+}
+
+
+/* About CSS */
+.about-title {
+  padding-top: 4.4rem;
+  padding-bottom: 5rem;
+  font-size: 3.6rem;
+  text-align: center;
+}
+
+.profilePicture {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+}
+
+.about-section {
+  background-color: #FCFCFC;
+  width: 100%;
+}
 
 
 /* Nav Bar */
