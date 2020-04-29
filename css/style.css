@@ -136,7 +136,10 @@ ul {
 
 .about-section {
   background-color: #FCFCFC;
-  width: 100%;
+}
+
+.black {
+  color: #241F20;
 }
 
 
