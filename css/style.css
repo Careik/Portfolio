@@ -8,8 +8,6 @@ html {
 
 body {
   font-family: 'Lato', sans-serif;
-  background-color: #241F20;
-  padding: 3.5rem 3.5rem 3.5rem 3.5rem;
 }
 
 header {
@@ -19,53 +17,76 @@ header {
 h1 {
   font-family: 'Alfa Slab One', cursive;
   font-size: 3.6rem;
-  color: #FCFCFC;
   line-height: 5rem;
 }
 
 h2 {
-  color: #FCFCFC;
   font-size: 2rem;
   font-weight: 300;
 }
 
 h3 {
-  color: #FCFCFC;
   font-size: 1.6rem;
   font-weight: 400;
 }
 
 h4 {
-  color: #FCFCFC;
   font-size: 2rem;
   font-weight: 700;
 }
 
 h5 {
-  color: #FCFCFC;
   font-size: 1.6rem;
   font-weight: 400;
 }
 
 h6 {
-  color: #FCFCFC;
   font-size: 1.6rem;
   font-weight: 400;
 }
 
 p{
-  color:#FCFCFC;
   font-size: 1.6rem;
   font-weight: 400;
-}
-
-ul {
-  color: #FCFCFC;
+  line-height: 3rem;
 }
 
 .width {
   width: 100%;
 }
+
+.font-white {
+  color: #FCFCFC;
+}
+
+.backgroup-white {
+  background-color: #FCFCFC;
+}
+
+.font-black {
+  color: #241F20;
+}
+
+.background-black {
+  background-color: #241F20;
+}
+
+.mobile-padding {
+  padding: 3.5rem;
+}
+
+.title-padding {
+  padding: 5rem 3.5rem 1.5rem 3.5rem;
+}
+
+.paragraph-padding {
+  padding: 0rem 3.5rem 0rem 3.5rem;
+}
+
+.nav-padding {
+  padding: 3.5rem 3.5rem 0rem 3.5rem;
+}
+
 
 
 
@@ -78,6 +99,7 @@ ul {
 .border {
   width: 10rem;
   border-bottom: .1rem solid;
+  margin-left: 3.5rem;
 }
 
 .border {
@@ -91,16 +113,16 @@ ul {
 }
 
 .home-title {
-  padding-top: 7rem;
-  padding-bottom: 8rem;
+  padding-top: 4.5rem;
+  padding-bottom: 9rem;
 }
 
 .home-jobTitle {
-  padding-bottom: 1.5rem;
+  padding: 0rem 3.5rem 1.5rem 3.5rem;
 }
 
 .home-location {
-  padding-top: .8rem;
+  padding: 0.8rem 3.5rem 0rem 3.5rem;
 }
 
 .center {
@@ -112,7 +134,7 @@ ul {
 
 .home-centered {
   text-align: center;
-  padding-top: 25.5rem;
+  padding-top: 23.4rem;
   padding-bottom:2rem;
 }
 
@@ -123,15 +145,17 @@ ul {
 
 /* About CSS */
 .about-title {
-  padding-top: 4.4rem;
-  padding-bottom: 5rem;
+  padding-top: 0.5rem;
   font-size: 3.6rem;
   text-align: center;
 }
 
-.profilePicture {
-  padding-top: 4rem;
-  padding-bottom: 5rem;
+.about-subtitle {
+  padding: 6rem 3.5rem 0rem 3.5rem;
+}
+
+.about-picture {
+  padding: 4rem 3.5rem 5rem 3.5rem;
 }
 
 .about-section {
