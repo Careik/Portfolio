@@ -87,6 +87,20 @@ p{
   padding-bottom: 5rem;
 }
 
+.fullscreen {
+height: 100vh;
+background-color: #241F20;;
+display: block;
+}
+
+.ninty {
+height: 90vh;
+}
+
+.ten {
+  height: 10vh;
+}
+
 /* Footer CSS */
 
 .nav-padding {
@@ -164,12 +178,16 @@ p{
 
 .home-centered {
   text-align: center;
-  padding-top: 23.4rem;
-  padding-bottom:2rem;
+  padding-top: 0rem;
+  padding-bottom:0rem;
 }
 
 .down_arrow {
-  padding-bottom: 10.3rem;
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
 }
 
 
