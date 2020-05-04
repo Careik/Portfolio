@@ -26,8 +26,8 @@ h2 {
 }
 
 h3 {
-  font-size: 1.6rem;
-  font-weight: 400;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 2.4rem;
 }
 
 h4 {
@@ -41,6 +41,12 @@ h5 {
 }
 
 p{
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+li {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 3rem;
@@ -96,13 +102,14 @@ p{
 }
 
 .fullscreen {
-height: 100vh;
-display: block;
+  width: 100%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  height: 100vh;
 }
 
-.ninty {
-height: 90vh;
-}
+
 
 .ten {
   height: 10vh;
@@ -148,7 +155,6 @@ height: 90vh;
 .border {
   width: 10rem;
   border-bottom: .1rem solid #FFCFCF;
-  margin-left: 3.5rem;
 }
 
 .burgerMenu {
@@ -158,17 +164,16 @@ height: 90vh;
 }
 
 .home-title {
-  padding: 8rem 3.5rem 0rem 3.5rem;
+  padding: 8rem 0rem 0rem 0rem;
 }
 
 .home-jobTitle {
-  padding: 9rem 0rem 1.5rem 3.5rem;
+  padding: 9rem 0rem 1.5rem 0rem;
 
 }
 
 .home-location {
-  padding-left: 3.5rem;
-  padding: 1rem 0rem 0rem 3.5rem;
+  padding: 1rem 0rem 0rem 0rem;
 }
 
 .center {
@@ -203,7 +208,7 @@ height: 90vh;
   margin: auto;
   left: 0px;
   right: 0px;
-  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 .hexagon:before,
@@ -226,6 +231,37 @@ height: 90vh;
   border-top: 17.32px solid #0e2829;
 }
 
+.hexagon-white {
+  position: relative;
+  width: 60px;
+  height: 34.64px;
+  background-color: #FCFCFC;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 10rem;
+}
+
+.hexagon-white:before,
+.hexagon-white:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+}
+
+.hexagon-white:before {
+  bottom: 100%;
+  border-bottom: 17.32px solid #FCFCFC;
+}
+
+.hexagon-white:after {
+  top: 100%;
+  width: 0;
+  border-top: 17.32px solid #FCFCFC;
+}
+
 .transparent {
   background-color: Transparent;
   background-repeat:no-repeat;
@@ -239,33 +275,58 @@ height: 90vh;
 }
 
 .project-text {
+  height: 33.3vh;
   text-align: center;
-  padding: 10rem 0rem 0rem 0rem;
+  padding: 10rem 3.5rem 0rem 3.5rem;
 }
 
 .project-description {
-  text-align: center;
-  padding: 4.0rem 6.5rem 0rem 6.5rem;
+  padding-top: 3.5rem;
 }
 
 .project-image {
-  max-width: 100%;
-  height: auto;
+  height: 33.3vh;
+  display: flex;
   text-align: center;
+}
+
+.project-button {
+  height: 33.3vh;
+  padding-top: 12rem;
+}
+
+.image {
+  max-width: 100%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10.1rem 0rem 0rem 0rem;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+
+.process {
+  display: flex;
+  flex-direction: column;
 }
 
 
+.process-title {
+  padding-top: 5.5rem;
+  text-align: center;
 
+}
 
+.process-border {
+  border-bottom: .2rem solid #FCFCFC;
+  text-align: center;
+  margin: 0rem 7.5rem 0rem 7.5rem;
+  padding-bottom: .5rem;
+  margin-bottom: .5rem;
+}
 
-
-
-
-
+.icon-padding {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
 
 
 

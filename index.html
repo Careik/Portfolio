@@ -12,8 +12,8 @@
   <body>
 
     <!-- Nav Bar -->
-  <div class="fullscreen background-black">
-  <header class="background-black mobile-padding">
+  <div class="fullscreen background-black mobile-padding">
+  <header class="background-black">
       <div class="logo">
         <img src="images/logo.png" alt="Eric Hellmuth Image">
       </div>
@@ -30,56 +30,73 @@
     </header>
 
     <!-- Hero unit -->
-    <main class="background-black">
+    <main class="">
       <h1 class="home-title font-white">Hey, I am<br> Eric Hellmuth</h1>
       <h2 class="home-jobTitle font-white">Digital Product Designer</h2>
       <div class="border"></div>
       <h2 class="home-location font-white">Upstate New York</h2>
       <p class="home-centered font-white">Most Recent Work</p>
-      <a href=""><i class="fas fa-chevron-circle-down fa-3x font-white center down_arrow"></i></i></a>
+      <a href="#work"><i class="fas fa-chevron-circle-down fa-3x font-white center down_arrow"></i></i></a>
     </main>
   </div>
 
     <!-- Case Studies **These are coded 2 different ways for desktop and mobile -->
 
     <!-- TuneCan Mobile -->
-    <section class="work-mobile">
-      <div class="project fullscreen background-orange">
-        <h1 class="font-white project-text">TuneCan Music</h1>
+    <section class="work-mobile fullscreen background-orange" id="work">
+      <div class="project-text">
+        <h1 class="font-white project-title">TuneCan Music</h1>
         <p class="font-white project-description">Your music components anywhere, anytime, all on the cloud</p>
-        <img src="images/tunecan_mobile.png" alt="Case Study Image" class="project-image">
+      </div>
+      <div class="project-image">
+        <img src="images/tunecan_mobile.png" alt="Case Study Image" class="image">
+      </div>
+      <div class="project-button">
         <div class="hexagon">
           <form action="tunecan.html">
             <button class="transparent"><i class="fas fa-chevron-right fa-2x font-white"></i></button>
           </form>
         </div>
       </div>
+    </section>
 
     <!-- BusyBus Mobile -->
-
-      <div class="project fullscreen background-blue">
-        <h6>02</h6>
-        <h1>BusyBus</h1>
-        <p class="">Pulling out all the stops to make your daily commute a breeze</p>
-        <img src="images/busybus_mobile.png" alt="Case Study Image" class="width">
-          <form action="busybus.html">
-            <button class="hex">&#8250;</button>
-          </form>
+    <section class="work-mobile fullscreen background-blue" id="work">
+      <div class="project-text">
+        <h1 class="font-white project-title">BusyBus</h1>
+        <p class="font-white project-description">Pulling out all the stops to make your daily commute a breeze</p>
       </div>
-
-    <!-- Points Mobile -->
-      <div class="project fullscreen background-green">
-        <h6>03</h6>
-        <h1>Points</h1>
-        <p class="">Points is a game with friends to give kudos where kudos are due</p>
-        <img src="images/points_mobile.png" alt="Case Study Image" class="width">
-          <form action="points.html">
-            <button class="hex">&#8250;</button>
+      <div class="project-image">
+        <img src="images/busybus_mobile.png" alt="Case Study Image" class="image">
+      </div>
+      <div class="project-button">
+        <div class="hexagon-white">
+          <form action="busybus.html">
+            <button class="transparent"><i class="fas fa-chevron-right fa-2x font-black"></i></button>
           </form>
+        </div>
       </div>
     </section>
 
-<!--
+    <!-- Points Mobile -->
+    <section class="work-mobile fullscreen background-green" id="work">
+      <div class="project-text">
+        <h1 class="font-white project-title">Points</h1>
+        <p class="font-white project-description">Points is a game with friends to give kudos where kudos are due</p>
+      </div>
+      <div class="project-image">
+        <img src="images/points_mobile.png" alt="Case Study Image" class="image">
+      </div>
+      <div class="project-button">
+        <div class="hexagon">
+          <form action="points.html">
+            <button class="transparent"><i class="fas fa-chevron-right fa-2x font-white"></i></button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
     <!-- TuneCan Desktop
     <section class="work-desktop">
 
@@ -102,7 +119,7 @@
 
     </section>
 
-    <!-- BusyBus Desktop
+     BusyBus Desktop
     <section class="work-desktop">
 
       <div class="project">
@@ -126,7 +143,7 @@
 
     </section>
 
-    <!-- Points Desktop
+     Points Desktop
     <section class="work-desktop">
 
       <div class="project">
@@ -147,17 +164,23 @@
       </div>
 
     </section>
-  -->
+-->
 
 
 
     <!-- My Design Process -->
-    <section class="designProcess fullscreen background-black">
-        <h2>My Design Process</h2>
-        <div class="three-col">
-            <img src="images/flask_icon.png" alt="research icon">
-            <h3>Research</h3>
-            <ul>
+    <section class="fullscreen background-black process">
+      <div>
+        <h2 class="font-white process-title">My Design Process</h2>
+
+      </div>
+        <div class="process">
+
+            <img src="images/flask_icon.png" alt="research icon" class="image icon-padding">
+            <h3 class="font-white center">Research</h3>
+
+          <div class="process-border"></div>
+            <ul class="font-white center">
               <li>User Surveys</li>
               <li>Competitive Analysis</li>
               <li>Personas</li>
@@ -165,20 +188,26 @@
             </ul>
         </div>
 
-        <div class="three-col">
-            <img src="images/info_icon.png" alt="info icon">
-            <h3>Information Architecture</h3>
-            <ul>
+      </div>
+        <div class="process-padding">
+
+            <img src="images/info_icon.png" alt="Information Architecture icon" class="image icon-padding">
+            <h3 class="font-white center">Information Architecture</h3>
+            <div class="process-border"></div>
+            <ul class="font-white center">
               <li>User Flows</li>
               <li>Site Maps</li>
               <li>Content Strategy</li>
             </ul>
         </div>
 
-        <div class="three-col">
-            <img src="images/design_icon.png" alt="design icon">
-            <h3>Visual Design</h3>
-            <ul>
+      </div>
+        <div class="process-padding">
+
+            <img src="images/Design_icon.png" alt="design icon" class="image icon-padding">
+            <h3 class="font-white center">Visual Design</h3>
+            <div class="process-border"></div>
+            <ul class="font-white center">
               <li>Branding</li>
               <li>Color Palettes</li>
               <li>Low and High Fidelity Mockups</li>
