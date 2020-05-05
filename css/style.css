@@ -36,8 +36,8 @@ h4 {
 }
 
 h5 {
-  font-size: 1.6rem;
-  font-weight: 400;
+  font-size: 2.2rem;
+  font-weight: 300;
 }
 
 p{
@@ -154,7 +154,7 @@ li {
 
 .border {
   width: 10rem;
-  border-bottom: .1rem solid #FFCFCF;
+  border-bottom: .1rem solid #FCFCFC;
 }
 
 .burgerMenu {
@@ -200,7 +200,7 @@ li {
   margin: auto;
 }
 
-.hexagon {
+.hexagon-center-black {
   position: relative;
   width: 60px;
   height: 34.64px;
@@ -211,8 +211,8 @@ li {
   margin-bottom: 10rem;
 }
 
-.hexagon:before,
-.hexagon:after {
+.hexagon-center-black:before,
+.hexagon-center-black:after {
   content: "";
   position: absolute;
   width: 0;
@@ -220,18 +220,18 @@ li {
   border-right: 30px solid transparent;
 }
 
-.hexagon:before {
+.hexagon-center-black:before {
   bottom: 100%;
   border-bottom: 17.32px solid #0e2829;
 }
 
-.hexagon:after {
+.hexagon-center-black:after {
   top: 100%;
   width: 0;
   border-top: 17.32px solid #0e2829;
 }
 
-.hexagon-white {
+.hexagon-center-white {
   position: relative;
   width: 60px;
   height: 34.64px;
@@ -242,8 +242,8 @@ li {
   margin-bottom: 10rem;
 }
 
-.hexagon-white:before,
-.hexagon-white:after {
+.hexagon-center-white:before,
+.hexagon-center-white:after {
   content: "";
   position: absolute;
   width: 0;
@@ -251,16 +251,89 @@ li {
   border-right: 30px solid transparent;
 }
 
-.hexagon-white:before {
+.hexagon-center-white:before {
   bottom: 100%;
   border-bottom: 17.32px solid #FCFCFC;
 }
 
-.hexagon-white:after {
+.hexagon-center-white:after {
   top: 100%;
   width: 0;
   border-top: 17.32px solid #FCFCFC;
 }
+
+.hexagon-right-black {
+  position: relative;
+  width: 40px;
+  height: 23.09px;
+  background-color: #0e2829;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 10rem;
+}
+
+.hexagon-right-black:before,
+.hexagon-right-black:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+.hexagon-right-black:before {
+  bottom: 100%;
+  border-bottom: 11.55px solid #0e2829;
+}
+
+.hexagon-right-black:after {
+  top: 100%;
+  width: 0;
+  border-top: 11.55px solid #0e2829;
+}
+
+---
+
+.hexagon-left-white {
+  position: relative;
+  width: 60px;
+  height: 34.64px;
+  background-color: #FCFCFC;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 10rem;
+}
+
+.hexagon-left-white:before,
+.hexagon-left-white:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+}
+
+.hexagon-left-white:before {
+  bottom: 100%;
+  border-bottom: 17.32px solid #FCFCFC;
+}
+
+.hexagon-left-white:after {
+  top: 100%;
+  width: 0;
+  border-top: 17.32px solid #FCFCFC;
+}
+
+
+
+
+
+
+
+
+
 
 .transparent {
   background-color: Transparent;
@@ -303,22 +376,27 @@ li {
   margin: auto;
 }
 
-.process {
+.design-process {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
-
 .process-title {
-  padding-top: 5.5rem;
-  text-align: center;
+  padding-top: 7rem;
+}
 
+.design-padding {
+  padding-bottom: 7rem;
 }
 
 .process-border {
-  border-bottom: .2rem solid #FCFCFC;
+  border-bottom: .1rem solid #FCFCFC;
   text-align: center;
-  margin: 0rem 7.5rem 0rem 7.5rem;
+  width: 20rem;
+  left: 0px;
+  right: 0px;
+  margin: auto;
   padding-bottom: .5rem;
   margin-bottom: .5rem;
 }
@@ -328,9 +406,7 @@ li {
   padding-bottom: 1rem;
 }
 
-
-
-
+/* Testimonials */
 
 
 
@@ -498,12 +574,17 @@ input[type=submit] {
 
 
 /* Testimonial Slide Show */
+.testimonial-title {
+  text-align: center;
+  padding-top: 7rem;
+}
+
 .mySlides {display: none}
 .mySlides img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100%;
   position: relative;
   margin: auto;
 }
@@ -537,7 +618,7 @@ input[type=submit] {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #241F20;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -569,6 +650,12 @@ input[type=submit] {
 
 .active, .dot:hover {
   background-color: #717171;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Fading animation */
