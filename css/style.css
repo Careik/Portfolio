@@ -880,6 +880,10 @@ span.firstLetter-red {
   height: auto;
 }
 
+.typography-padding {
+  padding: 1.5rem 3.5rem 3.5rem 3.5rem;
+}
+
 .logo-drawing-grid {
   display: grid;
   padding: 3.5rem;
