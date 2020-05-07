@@ -65,7 +65,7 @@ li {
   color: #241F20;
 }
 
-.backgroup-white {
+.background-white {
   background-color: #FCFCFC;
 }
 
@@ -87,6 +87,10 @@ li {
 
 .mobile-padding {
   padding: 3.5rem;
+}
+
+.button-padding {
+  padding: 0rem 3.5rem 3.5rem 3.5rem;
 }
 
 .title-padding {
@@ -722,16 +726,23 @@ input[type=submit] {
 }
 
 .caseStudy-img {
-  padding: 0rem 0rem 6rem 0rem;
+  padding: 0rem 0rem 2.5rem 0rem;
 }
 
 .prototype-button {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
   background-color: #3866A8;
   border: 0;
   color: #FCFCFC;
-  padding: 1rem 7rem 1rem 7rem;
+  padding: 1rem 5rem 1rem 5rem;
   font-size: 1.8rem;
-  margin: 0rem 0rem 10.5rem 0rem;
+  width: 100%;
+  margin: 0rem 3.5rem 7.5rem 0rem;
+}
+
+.prototype-padding {
+  padding: 3.5rem 3.5rem 6rem 3.5rem;
 }
 
 .deliverables {
@@ -744,6 +755,159 @@ input[type=submit] {
   padding: 2.5rem 0rem 0rem 0rem;
 }
 
-.subject-padding {
+.first-title-padding {
+  padding: 0rem 3.5rem 1.5rem 3.5rem;
+}
+
+.img-top-padding {
+  padding: 5rem 3.5rem 0rem
+}
+
+.two-row-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 3.5rem 2.7rem 5rem 2.7rem;
+}
+
+.rounded-section {
+  border-radius: 8rem;
+}
+
+.new-section-padding {
+  padding: 5rem 0rem 5rem 0rem;
+  text-align: center;
+}
+
+.userSurvey-firstResponse {
+  font-weight: bold;
+  padding: 3rem 3.5rem 1.5rem 3.5rem;
+}
+
+.userSurvey-responses {
+  font-weight: bold;
+  padding: 1.5rem 3.5rem 1.5rem 3.5rem;
+}
+
+.userSurvey-lastResponse {
+  font-weight: bold;
+  padding: 1.5rem 3.5rem 3rem 3.5rem;
+}
+
+.one-col-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.result-image-padding {
+  padding: 2.5rem 0rem 2.5rem 0rem;
+}
+
+.caseStudy-button {
+  font-family: 'Lato', sans-serif;
+  background-color: #EECD53;
+  border: 0;
+  color: #241F20;
+  padding: 1rem 5rem 1rem 5rem;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.company-logo {
+  display: inline-block;
+  padding-top: 3.5rem;
+  padding-bottom: 1rem;
+}
+
+span.firstLetter-green {
+  font-weight: 700;
+  color: #41A830;
+}
+
+span.firstLetter-red {
+  font-weight: 700;
+  color: #E25151;
+}
+
+.analysis-icon {
+  position: absolute;
+  padding: 3.65rem 0rem 0rem 1rem;
+}
+
+.analysis-button {
+  font-family: 'Lato', sans-serif;
+  background-color: #EECD53;
+  border: 0;
+  color: #241F20;
+  padding: 1rem 5rem 1rem 5rem;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.persona-list {
+  padding: 3.5rem 0rem 3.5rem 5rem;
+  text-align: left;
+}
+
+.persona-col-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.persona-padding {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.last-button-padding {
+  padding-bottom: 5rem;
+}
+
+.userFlows-row-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 3.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo-drawing-grid {
+  display: grid;
+  padding: 3.5rem;
+  grid-template-columns: auto auto;
+  grid-column-gap: 1rem;
+  justify-content: center;
+}
+
+.template-drawings-grid {
+  display: grid;
+  padding: 3.5rem;
+  grid-template-columns: auto;
+  grid-row-gap: 2rem;
+  justify-content: center;
+}
+
+.lowFidelity-grid {
+  display: grid;
+  padding: 3.5rem 7.5rem 3.5rem 7.5rem;
+  grid-template-columns: auto;
+  grid-row-gap: 2.5rem;
+  justify-content: center;
+}
+
+.lowfid-3-padding {
   padding: 0rem 3.5rem 0rem 3.5rem;
+}
+
+.nav-top-border {
+  border-bottom: 1px solid #FCFCFC;
 }
