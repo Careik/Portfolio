@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/79ac0a630f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -12,7 +13,7 @@
   <body>
 
     <!-- Nav Bar -->
-    <header class="background-black mobile-padding">
+    <header class="background-orange mobile-padding">
       <div class="logo">
         <img src="images/logo.png" alt="Eric Hellmuth Image">
       </div>
@@ -20,7 +21,7 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <img src="images/logo.png" class="logo-menu" alt="Eric Hellmuth Image">
         <div class="overlay-content">
-          <a class="menu-non-selected" href="index.html">Work</a>
+          <a class="menu-selected" href="index.html">Work</a>
           <a class="menu-non-selected" href="about.html">About</a>
           <a class="menu-non-selected no-border " href="contact.html">Contact</a>
         </div>
@@ -28,64 +29,70 @@
       <span class="burgerMenu" style="" onclick="openNav()">&#9776;</span>
     </header>
 
-    <main>
-      <h1 class="tunecan">TuneCan</h1>
-      <h4>Your Components Anywhere</h4>
-      <p>Whether on tour or at home, TuneCan makes it possible for musical artists to store their song components for easy editing.</p>
-      <img src="images/tunecan_mobile.png" alt="Case Study Image">
-      <form action="https://invis.io/FMVTSOC5XA9#/403008728_Homepage">
-        <button class="prototype">InVision Prototype</button>
+    <main class="background-orange">
+      <h1 class="tunecan font-white center caseStudy-title-padding">TuneCan</h1>
+      <h4 class="font-white center">Your Components Anywhere</h4>
+      <p class="font-white center caseStudy-description">Whether on tour or at home, TuneCan makes it possible for musical artists to store their song components for easy editing.</p>
+      <img src="images/tunecan_mobile.png" alt="Case Study Image" class="caseStudy-img center">
+      <form action="https://invis.io/FMVTSOC5XA9#/403008728_Homepage" class="center">
+        <button class="prototype-button">InVision Prototype</button>
       </form>
     </main>
 
 
 <!-- Deliverables Section -->
 
-    <section>
-      <h4>Deliverables:</h4>
-      <ul>
-        <li>User Surveys</li>
-        <li>Competitive Analysis</li>
-        <li>Personas</li>
-        <li>User Flows & Stories</li>
-        <li>Site Map</li>
-        <li>Branding</li>
-        <li>Mockups</li>
-        <li>User Testing</li>
-      </ul>
-      <h4>Design Role:</h4>
-      <ul>
-        <li>User Research</li>
-        <li>Visual Design</li>
-        <li>Branding</li>
-      </ul>
-      <h4>Tools Used:</h4>
-      <ul>
-        <li>Figma</li>
-        <li>InVision</li>
-        <li>Adobe Illustrator</li>
-        <li>Usability Hub</li>
-      </ul>
+    <section class="deliverables mobile-padding">
+      <div>
+        <h4>Deliverables:</h4>
+        <ul>
+          <li>User Surveys</li>
+          <li>Competitive Analysis</li>
+          <li>Personas</li>
+          <li>User Flows & Stories</li>
+          <li>Site Map</li>
+          <li>Branding</li>
+          <li>Mockups</li>
+          <li>User Testing</li>
+        </ul>
+      </div>
+      <div class="deliverables-padding">
+        <h4>Design Role:</h4>
+        <ul>
+          <li>User Research</li>
+          <li>Visual Design</li>
+          <li>Branding</li>
+        </ul>
+      </div>
+      <div class="deliverables-padding">
+        <h4>Tools Used:</h4>
+        <ul>
+          <li>Figma</li>
+          <li>InVision</li>
+          <li>Adobe Illustrator</li>
+          <li>Usability Hub</li>
+        </ul>
+      </div>
     </section>
 
 <!-- Introduction -->
     <section>
-      <h4>What is TuneCan?</h4>
-      <p>
+      <h4 class="subject-padding">What is TuneCan?</h4>
+      <p class="paragraph-padding">
         Musical artists and producers constantly save song components for use in songs. These components can be as small as a
         hit on a drum, to complete guitar solo’s. Musicians need to spend more time perfecting their song and less time trying to find
         the correct components. Whether playing in a garage or selling out stadiums, TuneCan was created to help all song creators
         improve their workflows.
       </p>
-      <h4>Problem:</h4>
-      <p>
+      <h4 class="subject-padding">Problem:</h4>
+      <p class="paragraph-padding">
         Song Creation is an extremely complex process that typically has many people involved. Artists and producers record multiple
         versions of drum tracks, guitar solos, vocals and more. They even record random sounds they feel may fit the vibe of a particular
         song. Artists and producers needed a way to save and organize their components for easy use down the road. Life on the road is
         hard and stressful; however, making music should not be.
       </p>
-      <h4>Solution:</h4>
-      <p>
+      <h4 class="subject-padding">Solution:</h4>
+      <p class="paragraph-padding">
         TuneCan is a cloud storage application that provides the necessary tools to artists and producers to store and organize their song
         components. The goal is to provide a platform in which song components can be uploaded and organized by band, album, songs, and
         then down to the specific instrument. Each user can have multiple bands and songs for any projects they desire to pursue.

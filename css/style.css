@@ -109,42 +109,11 @@ li {
   height: 100vh;
 }
 
-
-
 .ten {
   height: 10vh;
 }
 
-/* Footer CSS */
 
-.nav-padding {
-  padding: 3.5rem;
-}
-
-.nav-button {
-  background-color: #241F20;
-  border: 0.1rem solid #EECD53;
-  color: #EECD53;
-  padding: 1rem 7rem 1rem 7rem;
-  font-size: 1.8rem;
-  margin: 2rem 0rem 2rem 0rem;
-}
-
-.social-icons {
-  padding-bottom: 2rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.icon {
-  margin: 0rem 2.5rem 0rem 2.5rem;
-}
-
-.sendOff-spacing {
-  padding-top: 1rem;
-}
 
 /* Homepage CSS */
 
@@ -262,69 +231,7 @@ li {
   border-top: 17.32px solid #FCFCFC;
 }
 
-.hexagon-right-black {
-  position: relative;
-  width: 40px;
-  height: 23.09px;
-  background-color: #0e2829;
-  margin: auto;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 10rem;
-}
 
-.hexagon-right-black:before,
-.hexagon-right-black:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-}
-
-.hexagon-right-black:before {
-  bottom: 100%;
-  border-bottom: 11.55px solid #0e2829;
-}
-
-.hexagon-right-black:after {
-  top: 100%;
-  width: 0;
-  border-top: 11.55px solid #0e2829;
-}
-
----
-
-.hexagon-left-white {
-  position: relative;
-  width: 60px;
-  height: 34.64px;
-  background-color: #FCFCFC;
-  margin: auto;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 10rem;
-}
-
-.hexagon-left-white:before,
-.hexagon-left-white:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-}
-
-.hexagon-left-white:before {
-  bottom: 100%;
-  border-bottom: 17.32px solid #FCFCFC;
-}
-
-.hexagon-left-white:after {
-  top: 100%;
-  width: 0;
-  border-top: 17.32px solid #FCFCFC;
-}
 
 
 
@@ -406,7 +313,6 @@ li {
   padding-bottom: 1rem;
 }
 
-/* Testimonials */
 
 
 
@@ -420,15 +326,36 @@ li {
 
 
 
+/* Footer CSS */
 
+.nav-padding {
+  padding: 3.5rem;
+}
 
+.nav-button {
+  background-color: #241F20;
+  border: 0.1rem solid #EECD53;
+  color: #EECD53;
+  padding: 1rem 7rem 1rem 7rem;
+  font-size: 1.8rem;
+  margin: 2rem 0rem 2rem 0rem;
+}
 
+.social-icons {
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
+.icon {
+  margin: 0rem 2.5rem 0rem 2.5rem;
+}
 
-
-
-
-
+.sendOff-spacing {
+  padding-top: 1rem;
+}
 
 
 
@@ -587,9 +514,94 @@ input[type=submit] {
 }
 
 .endorse {
-  padding: 2.5rem 5rem 5.5rem 5rem;
+  padding: 2.5rem 5rem 7rem 5rem;
   line-height: 2.2rem;
   text-align: center;
+}
+
+.testimonial-next {
+  position: absolute;
+
+}
+
+
+
+
+.transparent-test {
+
+
+  border: none;
+
+  position: absolute;
+  top: .2rem;
+  left: 1.2rem;
+  right: 0rem;
+  margin: auto;
+}
+
+.hexagon-right-black {
+  position: absolute;
+  width: 40px;
+  height: 23.09px;
+  background-color: #0e2829;
+  float: right;
+  left:80%;
+  margin-bottom: 0%;
+
+
+}
+
+.hexagon-right-black:before,
+.hexagon-right-black:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+.hexagon-right-black:before {
+  bottom: 100%;
+  border-bottom: 11.55px solid #0e2829;
+}
+
+.hexagon-right-black:after {
+  top: 100%;
+  width: 0;
+  border-top: 11.55px solid #0e2829;
+}
+
+---
+
+.hexagon-left-white {
+  position: relative;
+  width: 40px;
+  height: 23.09px;
+  background-color: #FCFCFC;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 10rem;
+}
+
+.hexagon-left-white:before,
+.hexagon-left-white:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+.hexagon-left-white:before {
+  bottom: 100%;
+  border-bottom: 11.55px solid #FCFCFC;
+}
+
+.hexagon-left-white:after {
+  top: 100%;
+  width: 0;
+  border-top: 11.55px solid #FCFCFC;
 }
 
 /* Slideshow container */
@@ -619,7 +631,6 @@ input[type=submit] {
   user-select: none;
 }
 
-
 /* Position the "next button" to the right */
 .next {
   position: absolute;
@@ -648,8 +659,13 @@ input[type=submit] {
 
 /* The dot/bullet/indicator container */
 .dot-container {
-    text-align: center;
-    padding: 20px;
+  position: relative;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin:auto;
+  margin-top: 20rem;
+
 }
 
 /* The dots/bullets/indicators */
@@ -668,9 +684,6 @@ input[type=submit] {
 .active, .dot:hover {
   background-color: #EECD53;
 }
-
-
-
 
 /* Fading animation */
 .fade {
@@ -693,4 +706,44 @@ input[type=submit] {
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+
+/* TuneCan */
+
+.caseStudy-title-padding {
+  font-family: 'Poppins', sans-seif;
+  padding: 4rem 0rem 5rem 0rem;
+}
+
+.caseStudy-description {
+  padding: 1rem 0rem 6rem 0rem;
+  line-height: 2.2rem;
+}
+
+.caseStudy-img {
+  padding: 0rem 0rem 6rem 0rem;
+}
+
+.prototype-button {
+  background-color: #3866A8;
+  border: 0;
+  color: #FCFCFC;
+  padding: 1rem 7rem 1rem 7rem;
+  font-size: 1.8rem;
+  margin: 0rem 0rem 10.5rem 0rem;
+}
+
+.deliverables {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.deliverables-padding {
+  padding: 2.5rem 0rem 0rem 0rem;
+}
+
+.subject-padding {
+  padding: 0rem 3.5rem 0rem 3.5rem;
 }
