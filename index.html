@@ -12,10 +12,10 @@
   <body>
 
     <!-- Nav Bar -->
-  <div class="fullscreen background-black mobile-padding">
-  <header class="background-black">
+  <header class="background-black fullscreen">
+    <seciton>
       <div class="logo">
-        <img src="images/logo.png" alt="Eric Hellmuth Image">
+        <img src="images/logo.png" alt="Eric Hellmuth Logo">
       </div>
       <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -27,157 +27,91 @@
         </div>
       </div>
       <span class="burgerMenu" style="" onclick="openNav()">&#9776;</span>
-    </header>
+    </section>
+
 
     <!-- Hero unit -->
-    <main class="">
-      <h1 class="home-title font-white">Hey, I am<br> Eric Hellmuth</h1>
-      <h2 class="home-jobTitle font-white">Digital Product Designer</h2>
+    <main id="hero">
+      <h1 class="font-white">Hey, I am<br> Eric Hellmuth</h1>
+      <h2 class="font-white">Digital Product Designer</h2>
       <div class="border"></div>
-      <h2 class="home-location font-white">Upstate New York</h2>
-      <p class="home-centered font-white">Most Recent Work</p>
-      <a href="#work"><i class="fas fa-chevron-circle-down fa-3x font-white center down_arrow"></i></i></a>
+      <h2 class="font-white location-padding">Upstate New York</h2>
+      <div class="recent-work-position center">
+        <p class="font-white recent-work-padding">Most Recent Work</p>
+        <a href="#recent-projects"><i class="fas fa-chevron-circle-down fa-3x font-white"></i></a>
+      <div>
     </main>
-  </div>
-
-    <!-- Case Studies **These are coded 2 different ways for desktop and mobile -->
-
-    <!-- TuneCan Mobile -->
-    <section class="work-mobile fullscreen background-orange">
-      <div class="project-text">
-        <h1 class="font-white project-title">TuneCan Music</h1>
-        <p class="font-white project-description">Your music components anywhere, anytime, all on the cloud</p>
-      </div>
-      <div class="project-image">
-        <img src="images/tunecan_mobile.png" alt="Case Study Image" class="image">
-      </div>
-      <div class="project-button">
-        <div class="hexagon-center-black">
-          <form action="tunecan.html">
-            <button class="transparent"><i class="fas fa-chevron-right fa-2x font-white"></i></button>
-          </form>
-        </div>
-      </div>
-    </section>
-
-    <!-- BusyBus Mobile -->
-    <section class="work-mobile fullscreen background-blue">
-      <div class="project-text">
-        <h1 class="font-white project-title">BusyBus</h1>
-        <p class="font-white project-description">Pulling out all the stops to make your daily commute a breeze</p>
-      </div>
-      <div class="project-image">
-        <img src="images/busybus_mobile.png" alt="Case Study Image" class="image">
-      </div>
-      <div class="project-button">
-        <div class="hexagon-center-white">
-          <form action="busybus.html">
-            <button class="transparent"><i class="fas fa-chevron-right fa-2x font-black"></i></button>
-          </form>
-        </div>
-      </div>
-    </section>
-
-    <!-- Points Mobile -->
-    <section class="work-mobile fullscreen background-green">
-      <div class="project-text">
-        <h1 class="font-white project-title">Points</h1>
-        <p class="font-white project-description">Points is a game with friends to give kudos where kudos are due</p>
-      </div>
-      <div class="project-image">
-        <img src="images/points_mobile.png" alt="Case Study Image" class="image">
-      </div>
-      <div class="project-button">
-        <div class="hexagon-center-black">
-          <form action="points.html">
-            <button class="transparent"><i class="fas fa-chevron-right fa-2x font-white"></i></button>
-          </form>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- TuneCan Desktop
-    <section class="work-desktop">
-
-      <div class="project">
-        <div class="left">
-          <img src="images/tunecan_mobile.png" alt="Case Study Image" class="width">
-        </div>
-        <form action="tunecan.html">
-          <button class="hex">&#8250;</button>
-        </form>
-        <div class="right">
-          <h6>01</h6>
-          <h1>TuneCan Music</h1>
-          <p>Your music components anywhere, anytime, all on the cloud</p>
-          <form action="tunecan.html">
-            <button class="explore">Explore</button>
-          </form>
-        </div>
-      </div>
-
-    </section>
-
-     BusyBus Desktop
-    <section class="work-desktop">
-
-      <div class="project">
-
-        <div class="left">
-          <h6>02</h6>
-          <h1>BusyBus</h1>
-          <p>Pulling out all the stops to make your daily commute a breeze</p>
-          <form action="busybus.html">
-            <button class="explore">Explore</button>
-          </form>
-        </div>
-          <form action="busybus.html">
-            <button class="hex">&#8250;</button>
-          </form>
-          <div class="right">
-            <img src="images/busybus_desktop.png" alt="Case Study Image" class="width">
-          </div>
-        </div>
-      </div>
-
-    </section>
-
-     Points Desktop
-    <section class="work-desktop">
-
-      <div class="project">
-        <div class="left">
-          <img src="images/points_desktop.png" alt="Case Study Image" class="width">
-        </div>
-        <form action="points.html">
-          <button class="hex">&#8250;</button>
-        </form>
-        <div class="right">
-          <h6>03</h6>
-          <h1>Points</h1>
-          <p>Points is a game with friends to give kudos where kudos are due.</p>
-          <form action="points.html">
-            <button class="explore">Explore</button>
-          </form>
-        </div>
-      </div>
-
-    </section>
--->
+  </header>
 
 
 
-    <!-- My Design Process -->
-    <section class="fullscreen background-black design-process">
+  <!-- Case Studies **These are coded 2 different ways for desktop and mobile -->
+
+     <!-- Mobile Style -->
+     <!-- TuneCan Mobile -->
+     <section id="recent-projects" class="fullscreen-projects background-orange">
+       <div id="project-padding">
+         <h1 class="font-white">TuneCan Music</h1>
+         <p class="font-white">Your music components anywhere, anytime, all on the cloud</p>
+       </div>
+       <div>
+         <img src="images/tunecan_mobile.png" alt="Case Study Image" class="responsive-img">
+       </div>
+       <div class="project-hex-black"><a href="tunecan.html"><i class="fas fa-chevron-right fa-3x center font-white"></i></a></div>
+     </section>
+
+     <!-- Points Mobile -->
+
+     <section class="fullscreen-projects background-green">
+       <div id="project-padding">
+         <h1 class="font-white">Points.</h1>
+         <p class="font-white">Points is a game with friends to give kudos where kudos are due.</p>
+       </div>
+       <div>
+         <img src="images/points_mobile.png" alt="Case Study Image" class="responsive-img">
+       </div>
+       <div class="project-hex-white"><i class="fas fa-chevron-right fa-3x center font-black"></i></div>
+     </section>
+
+
+     <!-- Desktop Style -->
+     <!-- TuneCan Desktop -->
+     <section class="fullscreen-projects background-orange">
+       <div id="project-padding">
+         <h1 class="font-white">TuneCan Music</h1>
+         <p class="font-white">Your music components anywhere, anytime, all on the cloud</p>
+       </div>
+       <div>
+         <img src="images/tunecan_mobile.png" alt="Case Study Image" class="responsive-img">
+       </div>
+       <div class="project-hex-black"><i class="fas fa-chevron-right fa-3x center font-white"></i></div>
+     </section>
+
+     <!-- Points Desktop -->
+     <section class="fullscreen-projects background-green">
+       <div id="project-padding">
+         <h1 class="font-white">Points.</h1>
+         <p class="font-white">Points is a game with friends to give kudos where kudos are due.</p>
+       </div>
+       <div>
+         <img src="images/points_mobile.png" alt="Case Study Image" class="responsive-img">
+       </div>
+       <div class="project-hex-white"><i class="fas fa-chevron-right fa-3x center font-black"></i></div>
+     </section>
+
+
+
+
+     <!-- My Design Process -->
+    <section class="fullscreen-projects background-black">
       <div>
-        <h2 class="font-white process-title center">My Design Process</h2>
+        <h2 class="font-white process-title ">My Design Process</h2>
       </div>
       <div>
-        <img src="images/flask_icon.png" alt="research icon" class="image icon-padding">
-        <h3 class="font-white center">Research</h3>
+        <img src="images/flask_icon.png" alt="research icon" class="responsive-img icon-padding">
+        <h3 class="font-white">Research</h3>
         <div class="process-border"></div>
-        <ul class="font-white center">
+        <ul class="font-white">
           <li>User Surveys</li>
           <li>Competitive Analysis</li>
           <li>Personas</li>
@@ -185,20 +119,20 @@
         </ul>
       </div>
       <div>
-        <img src="images/info_icon.png" alt="Information Architecture icon" class="image icon-padding">
-        <h3 class="font-white center">Information Architecture</h3>
+        <img src="images/info_icon.png" alt="Information Architecture icon" class="responsive-img icon-padding">
+        <h3 class="font-white">Information Architecture</h3>
         <div class="process-border"></div>
-        <ul class="font-white center">
+        <ul class="font-white">
             <li>User Flows</li>
             <li>Site Maps</li>
             <li>Content Strategy</li>
           </ul>
         </div>
         <div class="design-padding">
-          <img src="images/Design_icon.png" alt="design icon" class="image icon-padding">
-          <h3 class="font-white center">Visual Design</h3>
+          <img src="images/Design_icon.png" alt="design icon" class="responsive-img icon-padding">
+          <h3 class="font-white">Visual Design</h3>
           <div class="process-border"></div>
-          <ul class="font-white center">
+          <ul class="font-white">
             <li>Branding</li>
             <li>Color Palettes</li>
             <li>Low and High Fidelity Mockups</li>
@@ -207,140 +141,108 @@
         </div>
     </section>
 
-<!-- testimonials p2 -->
-    <div class="slideshow-container fullscreen">
-      <h2 class="testimonial-title">Testimonials</h2>
-    <div class="mySlides">
-      <img src="images/testimonial_1.png" alt="testimonial picture" class="testimonial-image">
-      <h4 class="author">Imogen</h4>
-      <h5 class="endorse">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.”</h5>
-
-    </div>
-
-    <div class="mySlides">
-      <img src="images/testimonial_2.png" alt="testimonial picture" class="testimonial-image">
-      <h4 class="author">Charles</h4>
-      <h5 class="endorse">“Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod laborisa.”</h5>
-
-    </div>
-
-    <div class="mySlides">
-      <img src="images/testimonial_3.png" alt="testimonial picture" class="testimonial-image">
-      <h4 class="author">Roxy</h4>
-      <h5 class="endorse">“Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.”</h5>
-
-    </div>
-
-      <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-chevron-left fa-2x"></i></a>
-      <a class="next" onclick="plusSlides(1)"><i class="fas fa-chevron-right fa-2x"></i></a>
 
 
-
-    <div class="dot-container">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-
-
-    </div>
-
-
-
-
-
-    <!-- Testimonials
-    <section class="testimonials fullscreen background-white">
-      <div>
+    <!-- Testimonials -->
+    <section class="fullscreen background-white">
         <h2 class="testimonial-title">Testimonials</h2>
-      </div>
-        <div class="slideshow-container">
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 3</div>
-          <img src="images/testimonial_1.png" alt="testimonial picture" class="testimonial-image">
-          <div class="name">
-            <h4>Imogen</h4>
-          </div>
-          <div class="text">
-            <h5>Sed volutpat lobortis massa quis iaculis. Pellentesque sit amet mollis neque. Nunc scelerisque pellentesque eros, vel dignissim ipsum mattis a.</h5>
-          </div>
-        </div>
+      <div class="slideshow-container">
 
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="images/testimonial_2.png" alt="testimonial picture" class="image">
-          <div class="name">
-            <h4>Charles</h4>
+        <div class="testimonial-grid">
+          <div class="testimonial-hex-white">
+            <a onclick="plusSlides(-1)"><i class="fas fa-chevron-left fa-2x font-black cheveron-small-left"></i></a>
           </div>
-          <div class="text">
-            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis nunc vel turpis molestie</h5>
-          </div>
-        </div>
 
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="images/testimonial_3.png" alt="testimonial picture" class="image">
-          <div class="name">
-            <h4>Roxy</h4>
+          <div class="mySlides">
+            <img src="images/testimonial_1.png" alt="testimonial picture" class="testimonial-image">
+            <h4 class="author">Imogen</h4>
+            <h5 class="endorse">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do esmod. That is really good to hear ri am glad you told me how you are doing"</h5>
           </div>
-          <div class="text">
-            <h5>Aenean elementum quis ante a sollicitudin. Sed bibendum feugiat eleifend. Suspendisse id enim lectus.</h5>
+
+          <div class="mySlides">
+            <img src="images/testimonial_2.png" alt="testimonial picture" class="testimonial-image">
+            <h4 class="author">Charles</h4>
+            <h5 class="endorse">“Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod.”</h5>
+          </div>
+
+          <div class="mySlides">
+            <img src="images/testimonial_3.png" alt="testimonial picture" class="testimonial-image">
+            <h4 class="author">Roxy</h4>
+            <h5 class="endorse">“Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.”</h5>
+          </div>
+
+          <div class="testimonial-hex-black">
+            <a onclick="plusSlides(1)"><i class="fas fa-chevron-right fa-2x font-white cheveron-small-right"></i></a>
           </div>
         </div>
 
-
-
-          <div class="hexagon-right-black">
-            <button class="transparent" onclick="plusSlides(1)"><i class="fas fa-chevron-right fa-1x font-white"></i></button>
-          </div>
-          <div class="hexagon-left-white">
-            <button class="transparent" onclick="plusSlides(-1)"><i class="fas fa-chevron-left fa-1x font-black"></i></button>
-          </div>
-
-
-          <a class="prev hex" onclick="plusSlides(-1)">&#8250;</a>
-          <a class="next hex" onclick="plusSlides(1)">&#8250;</a>
-
-        </div>
-        <br>
-
-        <div style="text-align:center">
+        <div class="dot-container">
           <span class="dot" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
           <span class="dot" onclick="currentSlide(3)"></span>
         </div>
-
-
     </section>
--->
+
     <!-- Bottom Footer -->
-    <footer class="background-black nav-padding">
-        <p class="font-white center">Thanks for stopping by! If you want to chat please do not hesitate to reach out.</p>
-        <p class="font-white center sendOff-spacing">See you around!</p>
-        <form action="contact.html" class="center">
-            <button class="nav-button">Contact</button>
-        </form>
-        <div>
-          <ul class="social-icons">
-            <li>
-              <a href="contact.html">
-              <i class="fas fa-envelope fa-1x font-white icon"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/eric-hellmuth">
-              <i class="fab fa-linkedin-in fa-1x font-white icon"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/Careik?tab=repositories">
-              <i class="fab fa-github fa-1x font-white icon"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <h6 class="center font-white">Eric Hellmuth | Designed and Developed by Eric Hellmuth</h6>
-    </footer>
+        <footer class="background-black nav-padding">
+            <p class="font-white center">Thanks for stopping by! If you want to chat please do not hesitate to reach out.</p>
+            <p class="font-white center sendOff-spacing">See you around!</p>
+            <form action="contact.html" class="center">
+                <button class="nav-button">Contact</button>
+            </form>
+            <div>
+              <ul class="social-icons">
+                <li>
+                  <a href="contact.html">
+                  <i class="fas fa-envelope fa-1x font-white icon"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/eric-hellmuth">
+                  <i class="fab fa-linkedin-in fa-1x font-white icon"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/Careik?tab=repositories">
+                  <i class="fab fa-github fa-1x font-white icon"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <h6 class="center font-white">Eric Hellmuth | Designed and Developed by Eric Hellmuth</h6>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- Script for Nav Bar curtain menu -->
     <script>
@@ -382,5 +284,6 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
+
   </body>
 </html>
