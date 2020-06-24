@@ -23,6 +23,7 @@ h1 {
 h2 {
   font-size: 2rem;
   font-weight: 300;
+  line-height: 30px;
 }
 
 h3 {
@@ -517,7 +518,7 @@ li {
 
 /* About CSS */
 .about-title {
-  padding-top: 0.5rem;
+  padding-top: 4rem;
   text-align: center;
 }
 
@@ -1014,4 +1015,273 @@ span.firstLetter-red {
 
 .nav-top-border {
   border-bottom: 1px solid #FCFCFC;
+}
+
+.desktop-show {
+  display: none;
+}
+
+@media screen and (min-width: 575px) {
+
+  h1 {
+    font-size: 5rem;
+    line-height: 7rem;
+  }
+
+  p {
+    max-width: 475px;
+  }
+
+  h4 {
+    max-width: 475px;
+  }
+
+  .title-padding {
+    margin: auto;
+  }
+
+  .paragraph-padding {
+    margin: auto;
+  }
+
+  .contact-container {
+    text-align: center;
+  }
+
+
+#fullName {
+  max-width: 40rem;
+}
+
+#email {
+  max-width: 40rem;
+}
+
+#message {
+  max-width:40rem;
+}
+
+input[type=submit] {
+  max-width: 40rem;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 991px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+
+  }
+
+  p {
+    max-width: 575px;
+  }
+
+  h4 {
+    max-width: 575px;
+  }
+
+  .title-padding {
+    margin: auto;
+  }
+
+  .paragraph-padding {
+    margin: auto;
+  }
+
+  .mobile-show {
+    display: none;
+  }
+
+  .desktop-show {
+    display: block;
+  }
+
+  .topnav {
+  overflow: hidden;
+  background-color: #241F20;
+  }
+
+.topnav a {
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  }
+
+.topnav a.menu-contact {
+  color: #EECD53;
+  margin: .5rem 5rem 0rem 0rem;
+  }
+
+.topnav a.menu-contact-selected {
+  color: #241F20;
+  background-color: #EECD53;
+  padding: 1rem 1rem;
+  margin: .5rem 5rem 0rem 0rem;
+  }
+
+.topnav a:hover {
+  color: #EECD53;
+  }
+
+.menu-selected {
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  border-bottom: 0.2rem solid #EECD53;
+  margin-top: 1.5rem;
+  margin-right: 5rem;
+  }
+
+.menu-non-selected {
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  color: white;
+  margin-top: 1.5rem;
+  margin-right: 5rem;
+  }
+
+.menu-contact {
+  background-color: #241F20;
+  border: 0.1rem solid #EECD53;
+  color: #EECD53;
+  padding: 1rem 1rem;
+  font-size: 1.8rem;
+  margin: .3rem 0rem;
+  }
+
+  .logo {
+    padding-top: .75em;
+    float: left;
+    margin-left: 5rem;
+  }
+
+  #no-hover-effect:hover {
+    color: #241F20;
+  }
+
+  .desktop-name-padding {
+    margin-left: 5rem;
+  }
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1199px) {
+
+  h1 {
+    font-size: 7rem;
+    line-height: 8rem;
+  }
+
+  p {
+    max-width: 600px;
+  }
+
+  h4 {
+    max-width: 600px;
+  }
+
+  .title-padding {
+    margin: auto;
+  }
+
+  .paragraph-padding {
+    margin: auto;
+  }
+
+  .topnav a.menu-contact-selected {
+    color: #241F20;
+    background-color: #EECD53;
+    padding: 1rem 1rem;
+    margin: .5rem 11.5rem 0rem 0rem;
+    }
+
+  .logo {
+    padding-top: .75em;
+    float: left;
+    margin-left: 11.5rem;
+  }
+
+  .desktop-name-padding {
+    margin-left: 11.5rem;
+  }
 }

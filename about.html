@@ -12,7 +12,7 @@
   <body>
 
     <!-- Nav Bar -->
-    <header class="background-black mobile-padding">
+    <header class="background-black mobile-padding mobile-show">
       <div class="logo">
         <a href="index.html"><img src="images/logo.png" alt="Eric Hellmuth Logo"></a>
       </div>
@@ -28,10 +28,22 @@
       <span class="burgerMenu" style="" onclick="openNav()">&#9776;</span>
     </header>
 
+    <header class="background-black mobile-padding desktop-show">
+      <div class="logo">
+        <a href="index.html"><img src="images/logo_desktop.png" alt="Eric Hellmuth Logo"></a>
+      </div>
+      <div class="topnav">
+        <a class="no-border menu-contact" href="contact.html">Contact</a>
+        <a class="menu-selected" href="about.html">About</a>
+        <a class="menu-non-selected no-border" href="index.html">Work</a>
+      </div>
+    </header>
+
 <!-- Hero Unit -->
     <main class="background-black">
-      <h1 class="about-title font-white">Let Me <br> Introduce Myself</h1>
-      <p class="about-subtitle center font-white">Hello, I am Eric, and this is my dog Flaffs. He's a good boy.</p>
+      <h1 class="about-title font-white mobile-show">Let Me <br> Introduce Myself</h1>
+      <h1 class="about-title font-white desktop-show">Let Me Introduce Myself</h1>
+      <h2 class="about-subtitle center font-white">Hello, I am Eric, and this is my dog Flaffs. He's a good boy.</h2>
       <img src="images/about_photo-1x.png" alt="About profile photo" class="width about-picture center responsive-img">
     </main>
 

@@ -13,7 +13,7 @@
 
     <!-- Nav Bar -->
   <header class="background-black fullscreen">
-    <seciton>
+    <section class="mobile-show">
       <div class="logo">
         <img src="images/logo.png" alt="Eric Hellmuth Logo">
       </div>
@@ -29,15 +29,29 @@
       <span class="burgerMenu" style="" onclick="openNav()">&#9776;</span>
     </section>
 
+    <section class="desktop-show">
+      <header class="background-black desktop-show">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo_desktop.png" alt="Eric Hellmuth Logo"></a>
+        </div>
+        <div class="topnav">
+          <a class="no-border menu-contact" href="contact.html">Contact</a>
+          <a class="menu-non-selected no-border" href="about.html">About</a>
+          <a class="menu-selected no-border" href="index.html">Work</a>
+        </div>
+      </header>
+    </section>
+
+
 
     <!-- Hero unit -->
     <main id="hero">
-      <h1 class="font-white">Hey, I am<br> Eric Hellmuth</h1>
-      <h2 class="font-white">Digital Product Designer</h2>
-      <div class="border"></div>
-      <h2 class="font-white location-padding">Upstate New York</h2>
+      <h1 class="font-white desktop-name-padding">Hey, I am<br> Eric Hellmuth</h1>
+      <h2 class="font-white desktop-name-padding">Digital Product Designer</h2>
+      <div class="border desktop-name-padding"></div>
+      <h2 class="font-white location-padding desktop-name-padding">Upstate New York</h2>
       <div class="recent-work-position center">
-        <p class="font-white recent-work-padding">Most Recent Work</p>
+        <p class="font-white center">Most Recent Work</p>
         <a href="#recent-projects"><i class="fas fa-chevron-circle-down fa-3x font-white"></i></a>
       <div>
     </main>
@@ -48,18 +62,6 @@
   <!-- Case Studies **These are coded 2 different ways for desktop and mobile -->
 
      <!-- Mobile Style -->
-     <!-- TuneCan Mobile -->
-     <section id="recent-projects" class="fullscreen-projects background-orange">
-       <div id="project-padding">
-         <h1 class="font-white">TuneCan Music</h1>
-         <p class="font-white">Your music components anywhere, anytime, all on the cloud</p>
-       </div>
-       <div>
-         <img src="images/tunecan_mobile.png" alt="Case Study Image" class="responsive-img">
-       </div>
-       <div class="project-hex-black"><a href="tunecan.html"><i class="fas fa-chevron-right fa-3x center font-white"></i></a></div>
-     </section>
-
      <!-- Points Mobile -->
 
      <section class="fullscreen-projects background-green">
@@ -73,9 +75,23 @@
        <div class="project-hex-white"><i class="fas fa-chevron-right fa-3x center font-black"></i></div>
      </section>
 
+     <!-- TuneCan Mobile -->
+     <section id="recent-projects" class="fullscreen-projects background-orange">
+       <div id="project-padding">
+         <h1 class="font-white">TuneCan Music</h1>
+         <p class="font-white">Your music components anywhere, anytime, all on the cloud</p>
+       </div>
+       <div>
+         <img src="images/tunecan_mobile.png" alt="Case Study Image" class="responsive-img">
+       </div>
+       <div class="project-hex-black"><a href="tunecan.html"><i class="fas fa-chevron-right fa-3x center font-white"></i></a></div>
+     </section>
+
+
+
 
      <!-- Desktop Style -->
-     <!-- TuneCan Desktop -->
+     <!-- TuneCan Desktop --><!--
      <section class="fullscreen-projects background-orange">
        <div id="project-padding">
          <h1 class="font-white">TuneCan Music</h1>
@@ -85,9 +101,9 @@
          <img src="images/tunecan_mobile.png" alt="Case Study Image" class="responsive-img">
        </div>
        <div class="project-hex-black"><i class="fas fa-chevron-right fa-3x center font-white"></i></div>
-     </section>
+     </section>-->
 
-     <!-- Points Desktop -->
+     <!-- Points Desktop --><!--
      <section class="fullscreen-projects background-green">
        <div id="project-padding">
          <h1 class="font-white">Points.</h1>
@@ -98,7 +114,7 @@
        </div>
        <div class="project-hex-white"><i class="fas fa-chevron-right fa-3x center font-black"></i></div>
      </section>
-
+-->
 
 
 
