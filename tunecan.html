@@ -13,9 +13,7 @@
   <body class="background-black">
 
     <!-- Nav Bar -->
-
-    <header class="background-orange fullscreen">
-      <seciton>
+      <header class="background-orange mobile-padding mobile-show">
         <div class="logo">
           <a href="index.html"><img src="images/logo.png" alt="Eric Hellmuth Logo"></a>
         </div>
@@ -29,17 +27,38 @@
           </div>
         </div>
         <span class="burgerMenu" style="" onclick="openNav()">&#9776;</span>
-      </section>
+
+        <main>
+          <h1 class="font-white center caseStudy-title-padding">TuneCan</h1>
+          <h4 class="font-white center">Your Components Anywhere</h4>
+          <p class="font-white center caseStudy-description">Whether on tour or at home, TuneCan makes it possible for musical artists to store their song components for easy editing.</p>
+          <img src="images/tunecan-1x.png" alt="Case Study Image" class="caseStudy-img responsive-img center">
+          <form action="https://invis.io/FMVTSOC5XA9#/403008728_Homepage">
+            <button class="caseStudy-button center">InVision Prototype</button>
+          </form>
+        </main>
+      </header>
+      </header>
+
+      <header class="background-orange mobile-padding desktop-show">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo_desktop.png" alt="Eric Hellmuth Logo"></a>
+        </div>
+        <div class="topnav">
+          <a class="no-border menu-contact-tunecan high-res-padding" href="contact.html">Contact</a>
+          <a class="menu-non-selected no-border tunecan-hover" href="about.html">About</a>
+          <a class="menu-selected-tunecan tunecan-hover" href="index.html">Work</a>
+        </div>
 
 
       <!-- Introduction -->
       <main>
-        <h1 class="tunecan font-white center caseStudy-title-padding">TuneCan</h1>
+        <h1 class="font-white center caseStudy-title-padding">TuneCan</h1>
         <h4 class="font-white center">Your Components Anywhere</h4>
         <p class="font-white center caseStudy-description">Whether on tour or at home, TuneCan makes it possible for musical artists to store their song components for easy editing.</p>
         <img src="images/tunecan-1x.png" alt="Case Study Image" class="caseStudy-img responsive-img center">
         <form action="https://invis.io/FMVTSOC5XA9#/403008728_Homepage">
-          <button class="caseStudy-button">InVision Prototype</button>
+          <button class="caseStudy-button center">InVision Prototype</button>
         </form>
       </main>
     </header>
@@ -60,8 +79,8 @@
 
 
 <!-- Deliverables Section -->
-
-    <section class="deliverables mobile-padding background-white">
+    <div class="background-white">
+    <section class="deliverables mobile-padding background-white center">
       <div>
         <h4>Deliverables:</h4>
         <ul>
@@ -83,7 +102,7 @@
           <li>Branding</li>
         </ul>
       </div>
-      <div class="deliverables-padding">
+      <div>
         <h4>Tools Used:</h4>
         <ul>
           <li>Figma</li>
@@ -93,6 +112,7 @@
         </ul>
       </div>
     </section>
+  </div>
 
 <!-- Introduction -->
     <section class="background-white">
@@ -166,8 +186,8 @@
         provided a great base to begin finding the path forward for TuneCan.
       </p>
 
-      <div class="center">
-        <div class="three-col">
+      <div class="center three-col">
+        <div>
           <h2 class="company-logo">Evernote</h2>
           <img src="images/evernote_icon.png" alt="Evernote icon" class="analysis-icon">
           <ul>
@@ -180,7 +200,7 @@
           </ul>
         </div>
 
-        <div class="three-col">
+        <div>
           <h2 class="company-logo">Flickr</h2>
           <img src="images/flickr_icon.png" alt="Flickr icon" class="analysis-icon">
           <ul>
@@ -193,7 +213,7 @@
           </ul>
         </div>
 
-        <div class="three-col">
+        <div>
           <h2 class="company-logo">Dropbox</h2>
           <img src="images/dropbox_icon.png" alt="Dropbox icon" class="analysis-icon">
           <ul>
@@ -228,10 +248,11 @@
         <div>
           <img src="images/persona_dan-1x.png" alt="User Persona" class="persona-padding responsive-img">
         </div>
-        <div>
-          <img src="images/persona_mich-1x.png" alt="User Persona" class="responsive-img">
-        </div>
       </div>
+        <div>
+          <img src="images/persona_mich-1x.png" alt="User Persona" class="responsive-img center persona-col-flex">
+        </div>
+
       <form action="https://www.figma.com/file/J3TGbexdRYQ3xRkIPRm34b/TuneCan-Case-Study-Links?node-id=2%3A0" class="center mobile-padding last-button-padding">
         <button class="caseStudy-button">Personas</button>
       </form>
@@ -245,10 +266,16 @@
         User Flows were created for the most important processes discovered during the research phase. These included uploading
         content, sharing content, organizational methods, and collaboration.
       </p>
-      <div class="template-drawings-grid">
-        <img src="images/upload_flow-1x.png" alt="Uploading content user flow" class="responsive-img">
-        <img src="images/sharing_flow-1x.png" alt="Sharing content user flow" class="responsive-img">
-        <img src="images/signup_flow-1x.png" alt="Sign-up user flow" class="responsive-img">
+      <div class="flow-box center flowchart-padding">
+        <div class="">
+          <img src="images/upload_flow-1x.png" alt="Uploading content user flow" class="responsive-img">
+        </div>
+        <div>
+          <img src="images/sharing_flow-1x.png" alt="Sharing content user flow" class="responsive-img persona-padding">
+        </div>
+        <div>
+          <img src="images/signup_flow-1x.png" alt="Sign-up user flow" class="responsive-img">
+        </div>
       </div>
 
       <h4 class="font-white title-padding">Site Map:</h4>
@@ -256,7 +283,7 @@
         The last step before beginning wireframing was to create a site map. Due to the nature of cloud storage applications,
         things can get confusing. The site map was a nice way to stay in the right direction when creating the mockups.
       </p>
-      <div class="center">
+      <div class="center background-white">
         <img src="images/sitemap-3x.png" alt="Sitemap" class="responsive-img">
       </div>
       <form action="https://www.figma.com/file/J3TGbexdRYQ3xRkIPRm34b/TuneCan-Case-Study-Links?node-id=2%3A88" class="center mobile-padding">
@@ -285,7 +312,10 @@
         should be taken seriously. The bright yet give the sense enthusiasm and happiness, while the darker colors give it the sense of elegance.
       </p>
       <div class="center">
-        <img src="images/color_palette.png" alt="Color Palette" class="responsive-img">
+        <img src="images/color_palette.png" alt="Color Palette" class="responsive-img mobile-show center">
+      </div>
+      <div class="center background-whitest">
+        <img src="images/color_palette-3x.png" alt="Color Palette" class="responsive-img desktop-show center color-palette">
       </div>
       <h4 class="title-padding">Typography:</h4>
       <ul class="typography-padding">
@@ -294,7 +324,10 @@
       </ul>
       <p class="paragraph-padding last-paragraph">These typefaces were used because they look fun, are easy to read, and truly express the voice of TuneCan.</p>
       <div class="center">
-        <img src="images/typography.png" alt="Typography" class="responsive-img">
+        <img src="images/typography.png" alt="Typography" class="responsive-img typography-img mobile-show center">
+      </div>
+      <div class="center background-whitest">
+        <img src="images/typography-3x.png" alt="Typography" class="responsive-img typography-img desktop-show center">
       </div>
       <h4 class="title-padding">Logo Design and Process</h4>
       <p class="paragraph-padding">
@@ -339,10 +372,10 @@
         Once branding was complete it was finally time to create some mockups. I started by drawing out some basic sketches of what I thought the layout would look like.
       </p>
       <div class="template-drawings-grid">
-        <img src="images/wireframe_drawing_1-1x.png" alt="Wireframe Drawings" class="responsive-img">
-        <img src="images/wireframe_drawing_2-1x.png" alt="Wireframe Drawings" class="responsive-img">
-        <img src="images/wireframe_drawing_3-1x.png" alt="Wireframe Drawings" class="responsive-img">
-        <img src="images/wireframe_drawing_4-1x.png" alt="Wireframe Drawings" class="responsive-img">
+        <img src="images/wireframe_drawing_1-2x.png" alt="Wireframe Drawings" class="responsive-img">
+        <img src="images/wireframe_drawing_2-2x.png" alt="Wireframe Drawings" class="responsive-img">
+        <img src="images/wireframe_drawing_3-2x.png" alt="Wireframe Drawings" class="responsive-img">
+        <img src="images/wireframe_drawing_4-2x.png" alt="Wireframe Drawings" class="responsive-img">
       </div>
       <p class="paragraph-padding">
         With these sketches I was able to create a working prototype using Figma and InVision. These screens were very basic and contained general information.
@@ -351,7 +384,7 @@
         <img src="images/wireframe_digital_1-1x.png" alt="Low Fidelity Mockups" class="responsive-img">
         <img src="images/wireframe_digital_2-1x.png" alt="Low Fidelity Mockups" class="responsive-img">
       </div>
-      <div class="lowfid-3-padding">
+      <div class="lowfid-3-padding center">
         <img src="images/wireframe_digital_3-1x.png" alt="Low Fidelity Mockups" class="responsive-img">
       </div>
       <h4 class="title-padding">User Testing Round 1:</h4>
@@ -384,15 +417,15 @@
         In between the creation of high fidelity mockups and more user tests I performed some preference testing on screens. I tested to see how people responded
         to shape changes, where a search bar should go on mobile, and if modal windows were effective in the design.
       </p>
-      <div class="template-drawings-grid">
+      <div class="template-preference-grid">
         <img src="images/preference_mobile_1.png" alt="Preference Tests" class="responsive-img">
-        <h1 class="center">VS</h1>
+        <h1 class="grid-center center">VS</h1>
         <img src="images/preference_mobile_2.png" alt="Preference Tests" class="responsive-img">
       </div>
-      <div class="template-drawings-grid">
-        <img src="images/preference_desktop_1.png" alt="Preference Tests" class="responsive-img">
-        <h1 class="center">VS</h1>
-        <img src="images/preference_desktop_2.png" alt="Preference Tests" class="responsive-img">
+      <div class="template-preference-grid">
+        <img src="images/preference_desktop_1-2x.png" alt="Preference Tests" class="responsive-img">
+        <h1 class="grid-center center">VS</h1>
+        <img src="images/preference_desktop_2-2x.png" alt="Preference Tests" class="responsive-img">
       </div>
       <h4 class="first-title-padding">High Fidelity Mockup Testing:</h4>
       <p class="paragraph-padding">

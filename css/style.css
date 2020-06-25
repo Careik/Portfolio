@@ -70,6 +70,12 @@ li {
   background-color: #FCFCFC;
 }
 
+.background-whitest {
+  background-color: #FFFFFF;
+  width: 100%;
+  padding: 3.5rem 0rem;
+}
+
 .background-black {
   background-color: #241F20;
 }
@@ -78,9 +84,6 @@ li {
   background: linear-gradient(180deg, #DB6B3A 0%, #DB6C3A 30.51%, #EECD53 100%);
 }
 
-.background-blue {
-  background-color: #00599A;
-}
 
 .background-green {
   background: linear-gradient(180deg, #12C494 0%, #61E2BF 94.27%);
@@ -115,6 +118,16 @@ li {
   align-items: stretch;
   padding: 3.5rem 3.5rem 3.5rem 3.5rem;
 }
+
+.fullscreen-contact {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  }
+
 
 .fullscreen-projects {
   height: 100vh;
@@ -540,7 +553,8 @@ li {
 
 /* Contact CSS */
 .contact-title {
-  padding-top: 0.5rem;
+  padding-top: 3.5rem;
+  padding-bottom: 1rem;
   text-align: center;
 }
 
@@ -549,7 +563,7 @@ li {
 }
 
 .contact-container {
-  padding: 3.5rem 3.5rem 3.5rem 3.5rem;
+  padding: 3.5rem 3.5rem 0rem 3.5rem;
 }
 
 .border-top {
@@ -818,16 +832,16 @@ input[type=submit] {
 
 .caseStudy-title-padding {
   font-family: 'Poppins', sans-seif;
-  padding: 4rem 0rem 5rem 0rem;
+  padding: 3.5rem 0rem 3.5rem 0rem;
 }
 
 .caseStudy-description {
-  padding: 1rem 0rem 6rem 0rem;
+  padding: 1rem 0rem 3.5rem 0rem;
   line-height: 2.2rem;
 }
 
 .caseStudy-img {
-  padding: 0rem 0rem 6rem 0rem;
+  padding: 0rem 0rem 3.5rem 0rem;
 }
 
 .prototype-button {
@@ -850,14 +864,16 @@ input[type=submit] {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 3.5rem 0rem 3.5rem 0rem;
 }
 
 .deliverables-padding {
-  padding: 2.5rem 0rem 0rem 0rem;
+  padding: 3.5rem 0rem 3.5rem 0rem;
 }
 
 .first-title-padding {
   padding: 0rem 3.5rem 1.5rem 3.5rem;
+  margin: auto;
 }
 
 .img-top-padding {
@@ -883,16 +899,19 @@ input[type=submit] {
 .userSurvey-firstResponse {
   font-weight: bold;
   padding: 3rem 3.5rem 1.5rem 3.5rem;
+  margin:auto;
 }
 
 .userSurvey-responses {
   font-weight: bold;
   padding: 1.5rem 3.5rem 1.5rem 3.5rem;
+  margin: auto;
 }
 
 .userSurvey-lastResponse {
   font-weight: bold;
   padding: 1.5rem 3.5rem 3rem 3.5rem;
+  margin: auto;
 }
 
 .one-col-flex {
@@ -912,8 +931,10 @@ input[type=submit] {
   color: #FCFCFC;
   padding: 1rem 0rem 1rem 0rem;
   width: 100%;
+  max-width:660px;
   font-size: 1.8rem;
   font-weight: 700;
+  margin-bottom:3.5rem;
 }
 
 .company-logo {
@@ -951,12 +972,16 @@ span.firstLetter-red {
 .persona-list {
   padding: 3.5rem 0rem 3.5rem 5rem;
   text-align: left;
+  margin: auto;
 }
+
+
 
 .persona-col-flex {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 0rem 3.5rem;
 }
 
 .persona-padding {
@@ -1009,6 +1034,14 @@ span.firstLetter-red {
   justify-content: center;
 }
 
+.template-preference-grid {
+  display: grid;
+  padding: 3.5rem;
+  grid-template-columns: auto;
+  grid-row-gap: 2rem;
+  justify-content: center;
+}
+
 .lowfid-3-padding {
   padding: 0rem 3.5rem 0rem 3.5rem;
 }
@@ -1032,8 +1065,18 @@ span.firstLetter-red {
     max-width: 475px;
   }
 
+
+  h3 {
+    font-size: 5rem;
+  }
+
   h4 {
     max-width: 475px;
+  }
+
+  li {
+    margin:auto;
+    max-width: 425px;
   }
 
   .title-padding {
@@ -1066,10 +1109,70 @@ input[type=submit] {
   text-align: center;
 }
 
+.caseStudy-title-padding {
+  font-family: 'Poppins', sans-seif;
+  padding: 4rem 0rem 3rem 0rem;
+}
 
+.caseStudy-description {
+  padding: 1rem 0rem 3.5rem 0rem;
+  line-height: 2.2rem;
+}
 
+.caseStudy-img {
+  padding: 0rem 0rem 2rem 0rem;
+}
 
+.flow-box {
+  padding-top: 3.5rem;
+}
 
+.caseStudy-button {
+  font-family: 'Lato', sans-serif;
+  background-color: #3866A8;
+  border: 0;
+  color: #FCFCFC;
+  padding: 1rem 0rem 1rem 0rem;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.deliverables {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:  7.5rem 5rem 6rem 5rem;
+  max-width:770px;
+
+}
+
+.deliverables-padding {
+  padding: 0rem;
+}
+
+.typography-img {
+  max-width: 659px;
+  max-height: 539px;
+}
+
+.template-drawings-grid {
+  display: grid;
+  padding: 3.5rem;
+  grid-template-columns: auto auto;
+  grid-row-gap: 2rem;
+  grid-column-gap: 2rem;
+  justify-content: center;
+}
+
+.lowFidelity-grid {
+  display: grid;
+  padding: 3.5rem 7.5rem 3.5rem 7.5rem;
+  grid-template-columns: auto auto;
+  grid-row-gap: 2.5rem;
+  grid-column-gap: 3.5rem;
+  justify-content: center;
+}
 
 
 
@@ -1120,8 +1223,17 @@ input[type=submit] {
     max-width: 575px;
   }
 
+  h3 {
+    font-size: 7rem;
+  }
+
   h4 {
     max-width: 575px;
+  }
+
+  li {
+    margin:auto;
+    max-width: 525px;
   }
 
   .title-padding {
@@ -1142,7 +1254,7 @@ input[type=submit] {
 
   .topnav {
   overflow: hidden;
-  background-color: #241F20;
+
   }
 
 .topnav a {
@@ -1169,13 +1281,33 @@ input[type=submit] {
   color: #EECD53;
   }
 
+.topnav a.menu-contact-tunecan:hover {
+    color: #241F20;
+    border: 0.1rem solid #241F20;
+    }
+
+    .topnav a.tunecan-hover:hover {
+        color: #241F20;
+        }
+
+
 .menu-selected {
   font-family: 'Lato', sans-serif;
+  color: white;
   text-align: left;
   border-bottom: 0.2rem solid #EECD53;
   margin-top: 1.5rem;
   margin-right: 5rem;
   }
+
+  .menu-selected-tunecan {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    text-align: left;
+    border-bottom: 0.2rem solid #241F20;
+    margin-top: 1.5rem;
+    margin-right: 5rem;
+    }
 
 .menu-non-selected {
   font-family: 'Lato', sans-serif;
@@ -1206,6 +1338,139 @@ input[type=submit] {
 
   .desktop-name-padding {
     margin-left: 5rem;
+  }
+  .menu-selected-tunecan {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: left;
+    border-bottom: 0.2rem solid white;
+    margin-top: 1.5rem;
+    margin-right: 5rem;
+    }
+
+  .menu-contact-tunecan {
+    border: 0.1rem solid white;
+    color: white;
+    padding: 1rem 1rem;
+    font-size: 1.8rem;
+    margin: .3rem 5rem .3rem 0rem;
+    }
+
+
+
+
+    .caseStudy-title-padding {
+      font-family: 'Poppins', sans-seif;
+      padding: 2rem 0rem 1rem 0rem;
+    }
+
+    .caseStudy-description {
+      padding: 2rem 0rem 3.5rem 0rem;
+      line-height: 2.2rem;
+    }
+
+    .caseStudy-img {
+      padding: 0rem 0rem 2rem 0rem;
+    }
+
+  .caseStudy-button {
+    font-family: 'Lato', sans-serif;
+    background-color: #3866A8;
+    border: 0;
+    color: #FCFCFC;
+    padding: 1rem 0rem 1rem 0rem;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 700;
+    }
+
+    .one-col-flex {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      max-width: 1400px;
+    }
+
+    .three-col {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 4.5rem 0rem;
+      max-width:1200px;
+    }
+
+    .persona-padding {
+      padding: 0rem 0rem 3.5rem 0rem;
+    }
+
+    .persona-col-flex {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      max-width:1200px;
+    }
+
+    .flow-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      max-width:700px;
+    }
+
+    .flowchart-padding {
+      padding: 3.5rem 0rem 0rem 0rem;
+    }
+
+    .color-palette {
+      max-width: 534px;
+      max-height: 326px;
+    }
+
+    .typography-padding {
+        padding: 2rem 0rem 3.5rem 5rem;
+        text-align: left;
+        margin: auto;
+    }
+
+    .typography-img {
+      max-width: 659px;
+      max-height: 539px;
+    }
+
+    .logo-drawing-grid {
+      display: grid;
+      padding: 3.5rem;
+      grid-template-columns: auto auto;
+      grid-column-gap: 7.5rem;
+      justify-content: center;
+    }
+
+
+
+    .template-preference-grid {
+      display: grid;
+      padding: 3.5rem;
+      grid-template-columns: auto auto auto;
+      grid-row-gap: 3.5rem;
+      grid-column-gap: 3.5rem;
+      justify-content: center;
+    }
+
+    .desktop-max {
+      max-width: 530px;
+      max-height: 372px;
+    }
+
+    .grid-center {
+      justify-content: center;
+      align-content: center;
+      margin: auto;
+    }
+
+
+    }
+
+
   }
 
 
@@ -1284,4 +1549,10 @@ input[type=submit] {
   .desktop-name-padding {
     margin-left: 11.5rem;
   }
+
+  .topnav a.high-res-padding {
+    padding: 1rem 1rem;
+    margin: .5rem 11.5rem 0rem 0rem;
+    }
+
 }
