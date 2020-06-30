@@ -64,68 +64,53 @@
      <!-- Mobile Style -->
      <!-- Points Mobile -->
 
-     <section class="fullscreen-projects background-green mobile-show">
-       <div id="project-padding">
-         <h1 class="font-white">Points.</h1>
-         <p class="font-white">Points is a game with friends to give kudos where kudos are due.</p>
+     <section id="recent-projects" class="background-bluster">
+       <div class="project-flex">
+         <div id="project-padding">
+           <h1 class="font-white">Bluster</h1>
+           <p class="font-white">Social media is lackluster. Bluster</p>
+         </div>
+         <div>
+           <img src="images/bluster_screenshot.png" alt="Case Study Image" class="responsive-img project-img">
+         </div>
+         <div class="hex-button-padding">
+           <div class="project-hex-white">
+            <i class="fas fa-chevron-right fa-3x center font-black"></i>
+          </div>
+        </div>
        </div>
-       <div>
-         <img src="images/points_mobile.png" alt="Case Study Image" class="responsive-img">
-       </div>
-       <div class="project-hex-white"><i class="fas fa-chevron-right fa-3x center font-black"></i></div>
      </section>
 
-     <!-- TuneCan Mobile -->
-     <section id="recent-projects" class="fullscreen-projects background-orange mobile-show">
-       <div id="project-padding">
-         <h1 class="font-white">TuneCan Music</h1>
-         <p class="font-white">Your music components anywhere, anytime, all on the cloud</p>
+     <section id="recent-projects" class="background-orange">
+       <div class="project-flex">
+         <div id="project-padding">
+           <h1 class="font-white">TuneCan Music</h1>
+           <p class="font-white">Your music components anywhere, anytime, all on the cloud</p>
+         </div>
+         <div>
+           <img src="images/tunecan_mobile.png" alt="Case Study Image" class="responsive-img project-img">
+         </div>
+         <div class="hex-button-padding" href="tunecan.html">
+           <div class="project-hex-black">
+            <a href="tunecan.html">
+              <i class="fas fa-chevron-right fa-3x center font-white" ></i>
+            </a>
+          </div>
+        </div>
        </div>
-       <div>
-         <img src="images/tunecan_mobile.png" alt="Case Study Image" class="responsive-img">
-       </div>
-       <div class="project-hex-black"><a href="tunecan.html"><i class="fas fa-chevron-right fa-3x center font-white"></i></a></div>
      </section>
-
-
-
-
-     <!-- Desktop Style -->
-     <!-- TuneCan Desktop -->
-     <section class="background-orange desktop-show">
-       <div id="project-padding">
-         <h1 class="font-white">TuneCan Music</h1>
-         <p class="font-white">Your music components anywhere, anytime, all on the cloud</p>
-       </div>
-       <div>
-         <img src="images/tunecan_mobile.png" alt="Case Study Image" class="responsive-img">
-       </div>
-       <div class="project-hex-black"><a href="tunecan.html"><i class="fas fa-chevron-right fa-3x center font-white"></i></a></div>
-     </section>
-
-     <!-- Points Desktop -->
-     <section class="background-green desktop-show">
-       <div id="project-padding">
-         <h1 class="font-white">Points.</h1>
-         <p class="font-white">Points is a game with friends to give kudos where kudos are due.</p>
-       </div>
-       <div>
-         <img src="images/points_mobile.png" alt="Case Study Image" class="responsive-img">
-       </div>
-       <div class="project-hex-white"><i class="fas fa-chevron-right fa-3x center font-black"></i></div>
-     </section>
-
 
 
 
      <!-- My Design Process -->
     <section class="background-black">
       <div>
-        <h2 class="font-white process-title ">My Design Process</h2>
+        <h2 class="font-white process-title center">My Design Process</h2>
       </div>
+      <div class="process-flex center">
       <div>
         <img src="images/flask_icon.png" alt="research icon" class="responsive-img icon-padding">
-        <h3 class="font-white">Research</h3>
+        <h3 id="design_process" class="font-white">Research</h3>
         <div class="process-border"></div>
         <ul class="font-white">
           <li>User Surveys</li>
@@ -136,17 +121,18 @@
       </div>
       <div>
         <img src="images/info_icon.png" alt="Information Architecture icon" class="responsive-img icon-padding">
-        <h3 class="font-white">Information Architecture</h3>
+        <h3 id="design_process" class="font-white">Information Architecture</h3>
         <div class="process-border"></div>
         <ul class="font-white">
             <li>User Flows</li>
             <li>Site Maps</li>
             <li>Content Strategy</li>
+            <li class="font-black desktop-show"> - </li>
           </ul>
         </div>
         <div class="design-padding">
           <img src="images/Design_icon.png" alt="design icon" class="responsive-img icon-padding">
-          <h3 class="font-white">Visual Design</h3>
+          <h3 id="design_process" class="font-white">Visual Design</h3>
           <div class="process-border"></div>
           <ul class="font-white">
             <li>Branding</li>
@@ -155,6 +141,7 @@
             <li>User Testing</li>
           </ul>
         </div>
+      </div>
     </section>
 
 
@@ -165,8 +152,10 @@
       <div class="slideshow-container">
 
         <div class="testimonial-grid">
-          <div class="testimonial-hex-white">
-            <a onclick="plusSlides(-1)"><i class="fas fa-chevron-left fa-2x font-black cheveron-small-left"></i></a>
+          <div class="test-hex-button">
+            <div class="testimonial-hex-white">
+              <a onclick="plusSlides(-1)"><i class="fas fa-chevron-left fa-2x font-black cheveron-small-left"></i></a>
+          </div>
           </div>
 
           <div class="mySlides">
@@ -187,8 +176,10 @@
             <h5 class="endorse">“Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.”</h5>
           </div>
 
-          <div class="testimonial-hex-black">
-            <a onclick="plusSlides(1)"><i class="fas fa-chevron-right fa-2x font-white cheveron-small-right"></i></a>
+          <div class="test-hex-button">
+            <div class="testimonial-hex-black">
+              <a onclick="plusSlides(1)"><i class="fas fa-chevron-right fa-2x font-white cheveron-small-right"></i></a>
+            </div>
           </div>
         </div>
 

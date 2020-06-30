@@ -85,8 +85,8 @@ li {
 }
 
 
-.background-green {
-  background: linear-gradient(180deg, #12C494 0%, #61E2BF 94.27%);
+.background-bluster {
+  background: linear-gradient(180deg, #5C678D 0%, #232B46 100%);
 }
 
 .mobile-padding {
@@ -128,8 +128,13 @@ li {
   align-items: stretch;
   }
 
+  .fullscreen-projects {
+    height: 100vh;
+    text-align: center;
+  }
 
-.fullscreen-projects {
+
+/*.fullscreen-projects {
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -139,7 +144,7 @@ li {
   align-items: center;
   text-align: center;
   padding: 3.5rem 3.5rem 3.5rem 3.5rem;
-}
+}*/
 
 .ten {
   height: 10vh;
@@ -184,12 +189,26 @@ li {
 }
 
 #project-padding h1 {
-  padding-top: 10rem;
+
 }
 
 #project-padding p {
-  padding: 2.5rem 3rem 8.5rem 3rem;
+
 }
+
+.project-img {
+  padding: 8rem 0rem 8rem 0rem;
+}
+
+.project-flex {
+  padding: 10rem 0rem 10rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 
 .center {
   text-align: center;
@@ -261,6 +280,15 @@ li {
   border-top: 21.65px solid #241F20;
 }
 
+.process-flex {
+  padding: 0rem 0rem 7rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 
 .testimonial-hex-black {
   margin-top: 7.5rem;
@@ -293,6 +321,10 @@ li {
 }
 
 /* White Hexagons */
+
+.hex-button-padding {
+  padding-top: 5rem;
+}
 
 .project-hex-white {
   position: relative;
@@ -352,6 +384,11 @@ li {
   top: 100%;
   width: 0;
   border-top: 11.55px solid #EECD53;
+}
+
+.test-hex-button {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 
@@ -667,14 +704,40 @@ input[type=submit] {
 
 
 
+.hexagon {
+  position: relative;
+  width: 300px;
+  height: 173.21px;
+  background-color: #64C7CC;
+  margin: 86.60px 0;
+}
 
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #64C7CC;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #64C7CC;
+}
 
 
 /* Testimonial Slide Show */
 .testimonial-title {
   text-align: center;
   padding-top: 7.5rem;
-  margin-bottom: 10rem;
+  padding-bottom: 5rem;
 }
 
 .testimonial-image {
@@ -683,11 +746,14 @@ input[type=submit] {
 
 .author {
   padding-top: 2rem;
+  margin:auto;
 }
 
 .endorse {
-  padding: 2.5rem 3.5rem 7rem 3.5rem;
+  padding: 2.5rem 1.5rem 2.5rem 1.5rem;
   line-height: 2.2rem;
+  height: 16rem;
+  max-width: 50rem;
   text-align: center;
 }
 
@@ -778,12 +844,12 @@ input[type=submit] {
 
 /* The dot/bullet/indicator container */
 .dot-container {
-  position: absolute;
+  position: relative;
   text-align: center;
   left: 0;
   right: 0;
   margin:auto;
-  margin-bottom: 10rem;
+  margin-bottom: 7.5rem;
 
 }
 
@@ -971,8 +1037,7 @@ span.firstLetter-red {
 
 .persona-list {
   padding: 3.5rem 0rem 3.5rem 5rem;
-  text-align: left;
-  margin: auto;
+  margin:auto;
 }
 
 
@@ -1075,8 +1140,19 @@ span.firstLetter-red {
   }
 
   li {
-    margin:auto;
     max-width: 425px;
+  }
+
+  .social-icons {
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon {
+    margin: 0rem 5rem 0rem 5rem;
   }
 
   .title-padding {
@@ -1091,6 +1167,21 @@ span.firstLetter-red {
     text-align: center;
   }
 
+#design_process {
+  font-size: 2.4rem;
+}
+
+  #project-padding h1 {
+    font-size: 7rem;
+  }
+
+  #project-padding p {
+    font-size: 1.8rem;
+  }
+
+  .project-img {
+    padding: 8rem 0rem 8rem 0rem;
+  }
 
 #fullName {
   max-width: 40rem;
@@ -1181,6 +1272,7 @@ input[type=submit] {
 
 
 
+
 }
 
 
@@ -1232,7 +1324,6 @@ input[type=submit] {
   }
 
   li {
-    margin:auto;
     max-width: 525px;
   }
 
@@ -1467,11 +1558,34 @@ input[type=submit] {
       margin: auto;
     }
 
+    .process-title {
+      padding-top: 10rem;
+      padding-bottom: 4rem;
+    }
+
+    .process-flex {
+      padding: 0rem 0rem 15rem 0rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      max-width: 1500px;
+    }
+
+    .icon-padding {
+      padding-top: 0rem;
+      padding-bottom: 0rem;
+    }
+
+    .design-padding {
+      padding-bottom: 0rem;
+    }
+
 
     }
 
 
-  }
 
 
 
