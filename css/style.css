@@ -183,23 +183,12 @@ li {
   display: inline-block;
 }
 
-.border {
-  width: 10rem;
-  border-bottom: .1rem solid #FCFCFC;
-  padding-top: 1.2rem;
-}
+
 
 .location-padding {
   padding-top: .6rem;
 }
 
-.recent-work-position {
-  position: absolute;
-  bottom: 5rem;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
 
 .recent-work-padding {
   padding-bottom: 1rem;
@@ -211,8 +200,16 @@ li {
   float: right;
 }
 
-#hero h1 {
-  padding: 8rem 0rem 9rem 0rem;
+#hero {
+  position:relative;
+}
+
+.recent-work-position {
+  position: absolute;
+  top: 75vh;
+  left: 0;
+  right:0;
+  margin: auto;
 }
 
 #project-padding h1 {
@@ -221,6 +218,29 @@ li {
 
 #project-padding p {
 
+}
+
+.name_position {
+  position:absolute;
+  top: 10vh;
+}
+
+.position_position {
+  position:absolute;
+  top: 30vh;
+}
+
+.location_position {
+  position:absolute;
+  top: 35vh;
+}
+
+.border {
+  position: absolute;
+  top: 33.9vh;
+  width: 10rem;
+  border-bottom: .1rem solid #FCFCFC;
+  padding-top: 1.2rem;
 }
 
 
@@ -1135,6 +1155,7 @@ span.firstLetter-red {
   display: none;
 }
 
+
 @media screen and (min-width: 575px) {
 
   h1 {
@@ -1288,35 +1309,31 @@ input[type=submit] {
   height: 16rem;
   max-width: 50rem;
   text-align: center;
+  }
 }
 
+
+@media screen and (min-height: 800px) {
+
+  .recent-work-position {
+    position: absolute;
+    top: 83vh;
+    left: 0;
+    right:0;
+    margin: auto;
+  }
 }
 
+  @media screen and (min-height: 1200px) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .recent-work-position {
+      position: absolute;
+      top: 85vh;
+      left: 0;
+      right:0;
+      margin: auto;
+    }
+  }
 
 
 @media screen and (min-width: 991px) {
@@ -1445,9 +1462,6 @@ input[type=submit] {
     color: #241F20;
   }
 
-  .desktop-name-padding {
-    margin-left: 5rem;
-  }
   .menu-selected-tunecan {
     font-family: 'Lato', sans-serif;
     color: white;
@@ -1464,9 +1478,6 @@ input[type=submit] {
     font-size: 1.8rem;
     margin: .3rem 5rem .3rem 0rem;
     }
-
-
-
 
     .caseStudy-title-padding {
       font-family: 'Poppins', sans-seif;
@@ -1554,8 +1565,6 @@ input[type=submit] {
       justify-content: center;
     }
 
-
-
     .template-preference-grid {
       display: grid;
       padding: 3.5rem;
@@ -1599,6 +1608,26 @@ input[type=submit] {
     .design-padding {
       padding-bottom: 0rem;
     }
+    .name_position {
+      padding-left: 5rem;
+    }
+
+    .position_position {
+      padding-left: 5rem;
+    }
+
+    .location_position {
+      padding-left: 5rem;
+    }
+
+    .border {
+      position: absolute;
+      top: 33.3vh;
+      left:5rem;
+      width: 10rem;
+      border-bottom: .1rem solid #FCFCFC;
+      padding-top: 1.2rem;
+    }
 
 
     }
@@ -1606,43 +1635,6 @@ input[type=submit] {
     .list-container {
       text-align: center;
     }
-
-
-
-
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media screen and (min-width: 1199px) {
@@ -1690,4 +1682,24 @@ input[type=submit] {
     margin: .5rem 11.5rem 0rem 0rem;
     }
 
+    .name_position {
+      padding-left: 11.5rem;
+    }
+
+    .position_position {
+      padding-left: 11.5rem;
+    }
+
+    .location_position {
+      padding-left: 11.5rem;
+    }
+
+    .border {
+      position: absolute;
+      top: 33.7vh;
+      left:11.5rem;
+      width: 10rem;
+      border-bottom: .1rem solid #FCFCFC;
+      padding-top: 1.2rem;
+    }
 }
