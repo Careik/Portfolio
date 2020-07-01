@@ -119,6 +119,46 @@ li {
   padding: 3.5rem 3.5rem 3.5rem 3.5rem;
 }
 
+.caseStudy_fullscreen {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.casestudy_position {
+  position: relative;
+  text-align: center;
+}
+
+.caseStudy_title {
+  position: absolute;
+  top: 10vh;
+  left: 0;
+  right: 0;
+  margin: auto
+}
+
+.caseStudy_subtitle {
+  position: absolute;
+  top: 20vh;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.project-img {
+  display: grid;
+  height: 100vh;
+  margin: 0;
+  place-items: center center;
+}
+
+.caseStudy-padding {
+  padding: 0rem 1rem 0rem 1rem;
+}
+
 .fullscreen-contact {
   height: 100vh;
   background-size: cover;
@@ -183,9 +223,7 @@ li {
 
 }
 
-.project-img {
-  padding: 8rem 0rem 8rem 0rem;
-}
+
 
 .project-flex {
   padding: 10rem 0rem 10rem 0rem;
@@ -222,29 +260,18 @@ li {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Black Hexagons */
 
 .project-hex-black {
-  position: relative;
+  position: absolute;
+  top: 85vh;
   width: 75px;
   height: 43.30px;
   background-color: #241F20;
-  margin:auto;
-  bottom: 0rem;
   text-align: left;
+  left: 0;
+  right: 0;
+  margin:auto;
 }
 
 .project-hex-black:before,
@@ -309,17 +336,16 @@ li {
 
 /* White Hexagons */
 
-.hex-button-padding {
-  padding-top: 5rem;
-}
-
 .project-hex-white {
-  position: relative;
+  position: absolute;
+  top: 85vh;
   width: 75px;
   height: 43.30px;
   background-color: #FCFCFC;
-  margin:auto;
   text-align: left;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .project-hex-white:before,
