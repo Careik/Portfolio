@@ -1184,9 +1184,9 @@ span.firstLetter-red {
     text-align: center;
   }
 
-#design_process {
-  font-size: 2.4rem;
-}
+  #design_process {
+    font-size: 2.4rem;
+  }
 
   #project-padding h1 {
     font-size: 7rem;
@@ -1200,132 +1200,101 @@ span.firstLetter-red {
     padding: 8rem 0rem 8rem 0rem;
   }
 
-#fullName {
-  max-width: 40rem;
+  #fullName {
+    max-width: 40rem;
+  }
+
+  #email {
+    max-width: 40rem;
+  }
+
+  #message {
+    max-width:40rem;
+  }
+
+  input[type=submit] {
+    max-width: 40rem;
+    text-align: center;
+  }
+
+  .caseStudy-title-padding {
+    font-family: 'Poppins', sans-seif;
+    padding: 4rem 0rem 3rem 0rem;
+  }
+
+  .caseStudy-description {
+    padding: 1rem 0rem 3.5rem 0rem;
+    line-height: 2.2rem;
+  }
+
+  .caseStudy-img {
+    padding: 0rem 0rem 2rem 0rem;
+  }
+
+  .flow-box {
+    padding-top: 3.5rem;
+  }
+
+  .caseStudy-button {
+    font-family: 'Lato', sans-serif;
+    background-color: #3866A8;
+    border: 0;
+    color: #FCFCFC;
+    padding: 1rem 0rem 1rem 0rem;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  .deliverables {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:  7.5rem 5rem 6rem 5rem;
+    max-width:770px;
+
+  }
+
+  .deliverables-padding {
+    padding: 0rem;
+  }
+
+  .typography-img {
+    max-width: 659px;
+    max-height: 539px;
+  }
+
+  .template-drawings-grid {
+    display: grid;
+    padding: 3.5rem;
+    grid-template-columns: auto auto;
+    grid-row-gap: 2rem;
+    grid-column-gap: 2rem;
+    justify-content: center;
+  }
+
+  .lowFidelity-grid {
+    display: grid;
+    padding: 3.5rem 7.5rem 3.5rem 7.5rem;
+    grid-template-columns: auto auto;
+    grid-row-gap: 2.5rem;
+    grid-column-gap: 3.5rem;
+    justify-content: center;
+  }
+
+  .endorse {
+    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+    line-height: 2.2rem;
+    height: 16rem;
+    max-width: 50rem;
+    text-align: center;
+  }
+
 }
-
-#email {
-  max-width: 40rem;
-}
-
-#message {
-  max-width:40rem;
-}
-
-input[type=submit] {
-  max-width: 40rem;
-  text-align: center;
-}
-
-.caseStudy-title-padding {
-  font-family: 'Poppins', sans-seif;
-  padding: 4rem 0rem 3rem 0rem;
-}
-
-.caseStudy-description {
-  padding: 1rem 0rem 3.5rem 0rem;
-  line-height: 2.2rem;
-}
-
-.caseStudy-img {
-  padding: 0rem 0rem 2rem 0rem;
-}
-
-.flow-box {
-  padding-top: 3.5rem;
-}
-
-.caseStudy-button {
-  font-family: 'Lato', sans-serif;
-  background-color: #3866A8;
-  border: 0;
-  color: #FCFCFC;
-  padding: 1rem 0rem 1rem 0rem;
-  width: 100%;
-  font-size: 1.8rem;
-  font-weight: 700;
-}
-
-.deliverables {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding:  7.5rem 5rem 6rem 5rem;
-  max-width:770px;
-
-}
-
-.deliverables-padding {
-  padding: 0rem;
-}
-
-.typography-img {
-  max-width: 659px;
-  max-height: 539px;
-}
-
-.template-drawings-grid {
-  display: grid;
-  padding: 3.5rem;
-  grid-template-columns: auto auto;
-  grid-row-gap: 2rem;
-  grid-column-gap: 2rem;
-  justify-content: center;
-}
-
-.lowFidelity-grid {
-  display: grid;
-  padding: 3.5rem 7.5rem 3.5rem 7.5rem;
-  grid-template-columns: auto auto;
-  grid-row-gap: 2.5rem;
-  grid-column-gap: 3.5rem;
-  justify-content: center;
-}
-
-.endorse {
-  padding: 2.5rem 1.5rem 2.5rem 1.5rem;
-  line-height: 2.2rem;
-  height: 16rem;
-  max-width: 50rem;
-  text-align: center;
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (min-width: 991px) {
   h1 {
     font-size: 5rem;
-  }
-
-  h2 {
-
   }
 
   p {
@@ -1363,7 +1332,6 @@ input[type=submit] {
 
   .topnav {
   overflow: hidden;
-
   }
 
 .topnav a {
@@ -1400,14 +1368,14 @@ input[type=submit] {
         }
 
 
-.menu-selected {
-  font-family: 'Lato', sans-serif;
-  color: white;
-  text-align: left;
-  border-bottom: 0.2rem solid #EECD53;
-  margin-top: 1.5rem;
-  margin-right: 5rem;
-  }
+  .menu-selected {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: left;
+    border-bottom: 0.2rem solid #EECD53;
+    margin-top: 1.5rem;
+    margin-right: 5rem;
+    }
 
   .menu-selected-tunecan {
     font-family: 'Lato', sans-serif;
@@ -1418,22 +1386,22 @@ input[type=submit] {
     margin-right: 5rem;
     }
 
-.menu-non-selected {
-  font-family: 'Lato', sans-serif;
-  text-align: left;
-  color: white;
-  margin-top: 1.5rem;
-  margin-right: 5rem;
-  }
+  .menu-non-selected {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    color: white;
+    margin-top: 1.5rem;
+    margin-right: 5rem;
+    }
 
-.menu-contact {
-  background-color: #241F20;
-  border: 0.1rem solid #EECD53;
-  color: #EECD53;
-  padding: 1rem 1rem;
-  font-size: 1.8rem;
-  margin: .3rem 0rem;
-  }
+  .menu-contact {
+    background-color: #241F20;
+    border: 0.1rem solid #EECD53;
+    color: #EECD53;
+    padding: 1rem 1rem;
+    font-size: 1.8rem;
+    margin: .3rem 0rem;
+    }
 
   .logo {
     padding-top: .75em;
@@ -1448,6 +1416,7 @@ input[type=submit] {
   .desktop-name-padding {
     margin-left: 5rem;
   }
+
   .menu-selected-tunecan {
     font-family: 'Lato', sans-serif;
     color: white;
@@ -1464,9 +1433,6 @@ input[type=submit] {
     font-size: 1.8rem;
     margin: .3rem 5rem .3rem 0rem;
     }
-
-
-
 
     .caseStudy-title-padding {
       font-family: 'Poppins', sans-seif;
@@ -1554,8 +1520,6 @@ input[type=submit] {
       justify-content: center;
     }
 
-
-
     .template-preference-grid {
       display: grid;
       padding: 3.5rem;
@@ -1599,51 +1563,7 @@ input[type=submit] {
     .design-padding {
       padding-bottom: 0rem;
     }
-
-
-    }
-
-    .list-container {
-      text-align: center;
-    }
-
-
-
-
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 @media screen and (min-width: 1199px) {
 
