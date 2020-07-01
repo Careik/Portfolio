@@ -1707,4 +1707,9 @@ span.firstLetter-red {
     margin: .5rem 11.5rem 0rem 0rem;
     }
 
+    #hero h1 {
+      padding: 10rem 0rem 9rem 0rem;
+      font-size: 7rem;
+    }
+
 }

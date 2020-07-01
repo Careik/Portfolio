@@ -50,10 +50,14 @@
       <h2 class="font-white desktop-name-padding">Digital Product Designer</h2>
       <div class="border desktop-name-padding"></div>
       <h2 class="font-white location-padding desktop-name-padding">Upstate New York</h2>
-      <div class="recent-work-position center">
+      <div class="recent-work-position center mobile-show">
         <p class="font-white center">Most Recent Work</p>
-        <a href="#recent-projects"><i class="fas fa-chevron-circle-down fa-3x font-white"></i></a>
-      <div>
+        <a href="#recent-projects-mobile"><i class="fas fa-chevron-circle-down fa-3x font-white"></i></a>
+      </div>
+      <div class="recent-work-position center desktop-show">
+        <p class="font-white center">Most Recent Work</p>
+        <a href="#recent-projects-desktop"><i class="fas fa-chevron-circle-down fa-3x font-white"></i></a>
+      </div>
     </main>
   </header>
 
@@ -63,7 +67,7 @@
 
      <!-- Mobile Style -->
      <!-- Bluster Mobile -->
-     <section id="recent-projects" class="background-bluster caseStudy_fullscreen mobile-show">
+     <section id="recent-projects-mobile" class="background-bluster caseStudy_fullscreen mobile-show">
        <div class="casestudy_position">
          <div id="project-padding">
            <h1 class="font-white caseStudy_title">Bluster</h1>
@@ -79,7 +83,7 @@
      </section>
 
      <!-- TuneCan Mobile -->
-     <section id="recent-projects" class="background-orange caseStudy_fullscreen caseStudy-padding mobile-show">
+     <section class="background-orange caseStudy_fullscreen caseStudy-padding mobile-show">
        <div class="casestudy_position">
          <div id="project-padding">
            <h1 class="font-white caseStudy_title">TuneCan</h1>
@@ -96,22 +100,11 @@
       </div>
      </section>
 
+
+
      <!-- Desktop Style -->
      <!-- Bluster Desktop -->
-
-     <!--<section class="inline background-black">
-       <div class="project-hex-white">
-         <i class="fas fa-chevron-right fa-3x center font-black"></i>
-        </div>
-       <div class="fifty1 background-bluster">
-
-       </div><div class="fifty2 background-orange">
-
-       </div>
-     </section>-->
-
-
-     <section  class="desktop-show">
+     <section id="recent-projects-desktop" class="desktop-show">
        <div class="relative">
          <div class="project-hex-black">
            <i class="fas fa-chevron-right fa-3x font-white center"></i>
@@ -125,7 +118,7 @@
            </div>
            <div class="casestudy_position  background-bluster">
              <div class="project-img">
-               <img src="images/bluster_desktop.png" alt="Case Study Image" class="responsive-img-caseStudy bluster_img">
+               <img src="images/bluster_mobile_1x.png" alt="Case Study Image" class="responsive-img-caseStudy bluster_img">
              </div>
            </div>
          </div>
@@ -136,9 +129,11 @@
 <!-- TuneCan Desktop -->
    <section  class="desktop-show">
      <div class="relative">
-       <div class="project-hex-white">
-         <i class="fas fa-chevron-right fa-3x font-black center"></i>
-       </div>
+       <div class="project-hex-black">
+        <a href="tunecan.html">
+          <i class="fas fa-chevron-right fa-3x center font-white"></i>
+        </a>
+      </div>
 
 
        <div id="caseStudy_container">
@@ -147,10 +142,10 @@
              <img src="images/tunecan.png" alt="Case Study Image" class="responsive-img-caseStudy bluster_img">
            </div>
          </div>
-         <div class="casestudy_position  background-black">
+         <div class="casestudy_position  background-white">
            <div id="project-padding">
-             <h1 class="font-white caseStudy_title">TuneCan</h1>
-             <p class="font-white caseStudy_subtitle">Your music components anywhere, <br>anytime, all on the cloud</p>
+             <h1 class="font-black caseStudy_title">TuneCan</h1>
+             <p class="font-black caseStudy_subtitle">Your music components anywhere, <br>anytime, all on the cloud</p>
            </div>
          </div>
 
