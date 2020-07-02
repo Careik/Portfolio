@@ -605,7 +605,7 @@ input[type=text], select {
   font-size: 1.6rem;
 }
 
-input[type=submit] {
+/*input[type=submit] {
   width: 100%;
   background-color: #EECD53;
   color: #241F20;
@@ -615,6 +615,36 @@ input[type=submit] {
   margin: 0.8rem 0rem;
   border: none;
   cursor: pointer;
+}*/
+
+
+.submit_style {
+  width:100%;
+  max-width: 40rem;
+  background-color: #EECD53;
+  color: #241F20;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1rem 0rem;
+  margin: 0.8rem 0rem;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-container {
+  text-align: center;
+}
+
+#fullName {
+  max-width: 40rem;
+}
+
+#email {
+  max-width: 40rem;
+}
+
+#message {
+  max-width: 40rem;
 }
 
 #message {
@@ -1111,6 +1141,8 @@ span.firstLetter-red {
   display: none;
 }
 
+
+
 @media screen and (width: 320px) {
   #hero > h1 {
     font-size: 3.3rem;
@@ -1164,9 +1196,7 @@ span.firstLetter-red {
     margin: auto;
   }
 
-  .contact-container {
-    text-align: center;
-  }
+
 
   #design_process {
     font-size: 2.4rem;
@@ -1184,17 +1214,7 @@ span.firstLetter-red {
     padding: 8rem 0rem 8rem 0rem;
   }
 
-  #fullName {
-    max-width: 40rem;
-  }
 
-  #email {
-    max-width: 40rem;
-  }
-
-  #message {
-    max-width: 40rem;
-  }
 
   input[type=submit] {
     max-width: 40rem;
