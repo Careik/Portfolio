@@ -308,6 +308,7 @@ li {
 }
 
 .testimonial-hex-black {
+  cursor:pointer;
   margin-top: 7.5rem;
   position: relative;
   width: 40px;
@@ -373,6 +374,7 @@ li {
 }
 
 .testimonial-hex-white {
+  cursor:pointer;
   margin-top: 7.5rem;
   position: relative;
   width: 40px;
@@ -530,6 +532,7 @@ li {
 }
 
 .nav-button {
+  cursor: pointer;
   background-color: #241F20;
   border: 0.1rem solid #EECD53;
   color: #EECD53;
