@@ -4,6 +4,7 @@
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -153,7 +154,6 @@ li {
 
 .caseStudy_title {
   position: relative;
-
   left: 0;
   right: 0;
   margin: auto
@@ -1017,6 +1017,8 @@ input[type=text], select {
   margin-bottom: 3.5rem;
 }
 
+
+
 .company-logo {
   display: inline-block;
   padding-top: 3.5rem;
@@ -1561,7 +1563,7 @@ span.firstLetter-red {
 
   .icon-padding {
     padding-top: 0rem;
-    padding-bottom: 0rem;
+    padding-bottom: 2rem;
   }
 
   .design-padding {
@@ -1602,7 +1604,7 @@ span.firstLetter-red {
     top: 10vh;
     left: 0;
     right: 0;
-    margin: auto
+    margin: auto;
   }
 
 
@@ -1636,11 +1638,27 @@ span.firstLetter-red {
   }
 
   .caseStudy_title {
-    top: 42vh;
+    top: 34vh;
   }
 
   .caseStudy_subtitle {
-    top: 45vh;
+    top: 37vh;
+  }
+
+  .explore-button {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    background-color: #3866A8;
+    color: #FCFCFC;
+    border-bottom: 0rem;
+    padding: 1rem 8rem 1rem 8rem;
+    width: 20rem;
+    max-width: 660px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    position: relative;
+    top: 43vh;
+
   }
 
   .bluster_img {
@@ -1660,9 +1678,11 @@ span.firstLetter-red {
 
   p {
     max-width: 600px;
+    font-size: 1.8rem;
   }
 
   h4 {
+    font-size: 2.2rem;
     max-width: 600px;
   }
 
