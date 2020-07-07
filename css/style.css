@@ -149,7 +149,7 @@ li {
 }
 
 .tunecan-img-padding {
-  margin: 15vh 5rem 0vh 5rem;
+  margin: 15vh 0rem 0vh 0rem;
 }
 
 .caseStudy_title {
@@ -299,7 +299,7 @@ li {
 }
 
 .process-flex {
-  padding: 0rem 0rem 7rem 0rem;
+  padding: 0rem 0rem 1rem 0rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -786,13 +786,8 @@ input[type=text], select {
   align-items: stretch;
 }
 
-. .transparent-test {
-  border: none;
-  position: absolute;
-  top: .2rem;
-  left: 1.2rem;
-  right: 0rem;
-  margin: auto;
+.hex-no-border {
+  text-decoration: none;
 }
 
 /* Slideshow container */
@@ -1015,9 +1010,8 @@ input[type=text], select {
   font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 3.5rem;
+  cursor: pointer;
 }
-
-
 
 .company-logo {
   display: inline-block;
@@ -1351,14 +1345,14 @@ span.firstLetter-red {
 
   .topnav a.menu-contact {
     color: #EECD53;
-    margin: .5rem 5rem 0rem 0rem;
+    margin: .5rem 10rem 0rem 0rem;
   }
 
   .topnav a.menu-contact-selected {
     color: #241F20;
     background-color: #EECD53;
     padding: 1rem 1rem;
-    margin: .5rem 5rem 0rem 0rem;
+    margin: .5rem 10rem 0rem 0rem;
   }
 
   .topnav a:hover {
@@ -1412,7 +1406,7 @@ span.firstLetter-red {
   .logo {
     padding-top: .75em;
     float: left;
-    margin-left: 5rem;
+    margin-left: 10rem;
   }
 
   #no-hover-effect:hover {
@@ -1420,7 +1414,7 @@ span.firstLetter-red {
   }
 
   .desktop-name-padding {
-    margin-left: 5rem;
+    margin-left: 10rem;
   }
 
   .menu-selected-tunecan {
@@ -1437,7 +1431,7 @@ span.firstLetter-red {
     color: white;
     padding: 1rem 1rem;
     font-size: 1.8rem;
-    margin: .3rem 5rem .3rem 0rem;
+    margin: .3rem 10rem .3rem 0rem;
   }
 
   .caseStudy-title-padding {
@@ -1609,6 +1603,8 @@ span.firstLetter-red {
 
 
 
+
+
   .caseStudy_subtitle {
     position: relative;
     top: 20vh;
@@ -1668,6 +1664,7 @@ span.firstLetter-red {
   .relative {
     position: relative;
   }
+
 }
 
 @media screen and (min-width: 1199px) {
@@ -1698,26 +1695,73 @@ span.firstLetter-red {
     color: #241F20;
     background-color: #EECD53;
     padding: 1rem 1rem;
-    margin: .5rem 11.5rem 0rem 0rem;
+    margin: .5rem 15rem 0rem 0rem;
   }
 
   .logo {
     padding-top: .75em;
     float: left;
-    margin-left: 11.5rem;
+    margin-left: 15rem;
   }
 
   .desktop-name-padding {
-    margin-left: 11.5rem;
+    margin-left: 15rem;
   }
 
   .topnav a.high-res-padding {
     padding: 1rem 1rem;
-    margin: .5rem 11.5rem 0rem 0rem;
+    margin: .5rem 15rem 0rem 0rem;
   }
 
   #hero h1 {
     padding: 10rem 0rem 9rem 0rem;
     font-size: 7rem;
+  }
+
+  @media screen and (min-width: 1500px) {
+    .logo {
+      padding-top: .75em;
+      float: left;
+      margin-left: 20rem;
+    }
+
+    .desktop-name-padding {
+      margin-left: 20rem;
+    }
+
+    .topnav a.high-res-padding {
+      padding: 1rem 1rem;
+      margin: .5rem 20rem 0rem 0rem;
+    }
+
+    .topnav a.menu-contact-selected {
+      color: #241F20;
+      background-color: #EECD53;
+      padding: 1rem 1rem;
+      margin: .5rem 20rem 0rem 0rem;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+  .logo {
+    padding-top: .75em;
+    float: left;
+    margin-left: 25rem;
+  }
+
+  .desktop-name-padding {
+    margin-left: 25rem;
+  }
+
+  .topnav a.high-res-padding {
+    padding: 1rem 1rem;
+    margin: .5rem 25rem 0rem 0rem;
+  }
+
+  .topnav a.menu-contact-selected {
+    color: #241F20;
+    background-color: #EECD53;
+    padding: 1rem 1rem;
+    margin: .5rem 25rem 0rem 0rem;
   }
 }
