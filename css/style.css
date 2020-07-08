@@ -1490,6 +1490,7 @@ span.firstLetter-red {
     flex-direction: row;
     justify-content: space-around;
     max-width: 700px;
+    align-items: flex-end;
   }
 
   .flowchart-padding {
