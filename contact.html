@@ -47,14 +47,19 @@
     <h2 class="contact-subtitle center font-white">Have a project you want to work on?</h2>
     <h2 class="contact-subtitle center font-white">let's work together!</h2>
 
-
-    <form class="background-black contact-container" action="https://formspree.io/xrgyygqn" method="post">
-      <input type="text" id="fullName" name="name" placeholder="Your name"><br>
-      <input type="text" id="email" name="replyto" placeholder="Your email"><br>
-      <input type="text" id="message" name="message" placeholder="Message..."><br><br>
-      <!--<input type="submit" value="Submit">-->
+  <div class="contact-container">
+    <form class="background-black" action="https://formspree.io/xrgyygqn" method="post">
+    <div class="label-center">
+      <label class="label-style" for="fullName">Full Name</label><br>
+      <input type="text" id="fullName" name="name" placeholder="First and Last Name"><br>
+      <label class="label-style" for="email">Email</label><br>
+      <input type="text" id="email" name="replyto" placeholder="Somewhere I can reach you at"><br>
+      <label class="label-style" for="message">Message</label><br>
+      <input type="text" id="message" name="message" placeholder="Anything you want! I won't bite"><br><br>
       <button class="submit_style" type="submit">Submit</button>
+    </div>
     </form>
+  </div>
   </main>
 
   <!-- Bottom Footer -->

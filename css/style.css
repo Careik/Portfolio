@@ -54,6 +54,10 @@ li {
   line-height: 3rem;
 }
 
+label {
+
+}
+
 .width {
   max-width: 100%;
   height: auto;
@@ -593,7 +597,26 @@ ul.social-icons {
 }
 
 .contact-container {
-  padding: 3.5rem 3.5rem 0rem 3.5rem;
+  text-align: left;
+}
+
+.contact-container {
+  padding: 5.5rem 3.5rem 0rem 3.5rem;
+  text-align: center;
+}
+
+label.label-style {
+  text-align: left !important;
+  color:white;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.label-center {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  max-width: 40rem;
 }
 
 .border-top {
@@ -634,9 +657,7 @@ input[type=text], select {
   cursor: pointer;
 }
 
-.contact-container {
-  text-align: center;
-}
+
 
 #fullName {
   max-width: 40rem;
@@ -691,14 +712,14 @@ input[type=text], select {
 }
 
 .menu-non-selected {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Alfa Slab One';
   text-align: left;
   color: #FCFCFC;
   border-bottom: 0.4rem solid #FCFCFC;
 }
 
 .menu-selected {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Alfa Slab One';
   text-align: left;
   color: #EECD53;
   border-bottom: 0.4rem solid #EECD53;
