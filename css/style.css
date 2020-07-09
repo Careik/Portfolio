@@ -669,11 +669,12 @@ input[type=text], select {
 
 #message {
   max-width: 40rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  padding: 1rem 2rem 10rem 2rem;
+  margin-top: 1rem;
 }
 
-#message {
-  padding: 1rem 2rem 10rem 2rem;
-}
 
 /* Nav Bar */
 .overlay {
