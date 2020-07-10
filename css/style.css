@@ -1053,6 +1053,10 @@ span.firstLetter-red {
   color: #E25151;
 }
 
+.flow-box {
+  padding-top: 3.5rem;
+}
+
 .analysis-icon {
   position: absolute;
   padding: 3.65rem 0rem 0rem 1rem;
@@ -1628,6 +1632,9 @@ span.firstLetter-red {
     margin: auto;
   }
 
+  .result-image-padding {
+    padding: 0rem 0rem 2.5rem 0rem;
+  }
 
 
 
