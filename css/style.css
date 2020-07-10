@@ -77,7 +77,6 @@ label {
 
 .background-whitest {
   background-color: #FFFFFF;
-  width: 100%;
   padding: 3.5rem 0rem;
 }
 
@@ -1055,6 +1054,10 @@ span.firstLetter-red {
 
 .flow-box {
   padding-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .analysis-icon {
@@ -1095,13 +1098,6 @@ span.firstLetter-red {
   padding-bottom: 5rem;
 }
 
-.userFlows-row-flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 3.5rem;
-  padding-bottom: 2.5rem;
-}
 
 .responsive-img {
   max-width: 100%;
@@ -1168,6 +1164,14 @@ span.firstLetter-red {
   display: none;
 }
 
+.color-palette {
+  max-width: 45%;
+}
+
+.user-flow {
+  max-height: 100%;
+  max-width: 100%;
+}
 
 
 @media screen and (width: 320px) {
@@ -1245,6 +1249,7 @@ span.firstLetter-red {
 
 
 
+
   input[type=submit] {
     max-width: 40rem;
     text-align: center;
@@ -1266,6 +1271,7 @@ span.firstLetter-red {
 
   .flow-box {
     padding-top: 3.5rem;
+    justify-content: space-evenly;
   }
 
   .caseStudy-button {
@@ -1516,21 +1522,22 @@ span.firstLetter-red {
   }
 
   .flow-box {
+    padding-top: 3.5rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    max-width: 700px;
-    align-items: flex-end;
+    align-items: center;
+
+    margin: auto;
+
   }
 
   .flowchart-padding {
     padding: 3.5rem 0rem 0rem 0rem;
   }
 
-  .color-palette {
-    max-width: 534px;
-    max-height: 326px;
-  }
+
+
+
 
   .typography-padding {
     padding: 2rem 0rem 3.5rem 5rem;
