@@ -1165,13 +1165,10 @@ span.firstLetter-red {
 }
 
 .color-palette {
-  max-width: 45%;
+
 }
 
-.user-flow {
-  max-height: 100%;
-  max-width: 100%;
-}
+
 
 
 @media screen and (width: 320px) {
@@ -1326,6 +1323,10 @@ span.firstLetter-red {
     height: 16rem;
     max-width: 50rem;
     text-align: center;
+  }
+
+  .color-palette {
+    max-width: 600px;
   }
 }
 
@@ -1537,8 +1538,6 @@ span.firstLetter-red {
 
 
 
-
-
   .typography-padding {
     padding: 2rem 0rem 3.5rem 5rem;
     text-align: left;
@@ -1643,6 +1642,9 @@ span.firstLetter-red {
     padding: 0rem 0rem 2.5rem 0rem;
   }
 
+  .user-flow {
+    max-height: 600px;
+  }
 
 
 
