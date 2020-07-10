@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
-  <title></title>
+  <title>Portfolio Work</title>
   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/79ac0a630f.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -54,11 +54,11 @@
       <h2 class="font-white location-padding desktop-name-padding">Upstate New York</h2>
       <div class="recent-work-position center mobile-show">
         <p class="font-white center">Most Recent Work</p>
-        <a href="#recent-projects-mobile"><i class="fas fa-chevron-circle-down fa-3x font-white"></i></a>
+        <a href="#recent-projects-mobile" aria-label="Recent Work"><i class="fas fa-chevron-circle-down fa-3x font-white"></i></a>
       </div>
       <div class="recent-work-position center desktop-show">
         <p class="font-white center">Most Recent Work</p>
-        <a href="#recent-projects-desktop"><i class="fas fa-chevron-circle-down fa-3x font-white"></i></a>
+        <a href="#recent-projects-desktop" aria-label="Recent Work"><i class="fas fa-chevron-circle-down fa-3x font-white"></i></a>
       </div>
     </main>
   </header>
@@ -71,12 +71,12 @@
   <!-- Bluster Mobile -->
   <section id="recent-projects-mobile" class="background-bluster caseStudy_fullscreen mobile-show">
     <div class="casestudy_position">
-      <div id="project-padding">
-        <h1 class="font-white caseStudy_title">Bluster</h1>
+      <div id="project-padding-bluster">
+        <h1 class="font-white">Bluster</h1>
         <p class="font-white caseStudy_subtitle">Social media is lackluster. Bluster</p>
       </div>
-      <div class="project-img">
-        <img src="images/bluster_screenshot.png" alt="Case Study Image" class="responsive-img">
+      <div class="bluster-img-padding">
+        <img src="images/bluster_mobile_1x.png" alt="Bluster Case Study Image" class="responsive-img-bluster center">
       </div>
       <div class="project-hex-white">
         <i class="fas fa-chevron-right fa-3x center font-black"></i>
@@ -87,15 +87,15 @@
   <!-- TuneCan Mobile -->
   <section class="background-orange caseStudy_fullscreen caseStudy-padding mobile-show">
     <div class="casestudy_position">
-      <div id="project-padding">
-        <h1 class="font-white caseStudy_title">TuneCan</h1>
+      <div id="project-padding-tunecan">
+        <h1 class="font-white">TuneCan</h1>
         <p class="font-white caseStudy_subtitle">Your music components anywhere, anytime, all on the cloud</p>
       </div>
-      <div class="project-img">
-        <img src="images/tunecan_mobile.png" alt="Case Study Image" class="responsive-img">
+      <div class="tunecan-img-padding">
+        <img src="images/tunecan.png" alt="TuneCan Case Study Image" class="responsive-img">
       </div>
       <div class="project-hex-black">
-        <a href="tunecan.html">
+        <a href="tunecan.html" class="hex-no-border" aria-label="TuneCan Case Study">
           <i class="fas fa-chevron-right fa-3x center font-white"></i>
         </a>
       </div>
@@ -116,11 +116,12 @@
           <div id="project-padding">
             <h1 class="font-black caseStudy_title">Bluster</h1>
             <p class="font-black caseStudy_subtitle">Social media is lackluster. Bluster</p>
+            <a role="button" href="#" class="explore-button">Explore</a>
           </div>
         </div>
         <div class="casestudy_position  background-bluster">
           <div class="project-img">
-            <img src="images/bluster_mobile_1x.png" alt="Case Study Image" class="responsive-img-caseStudy bluster_img">
+            <img src="images/bluster_mobile_1x.png" alt="Bluster Case Study Image" class="responsive-img-caseStudy bluster_img">
           </div>
         </div>
       </div>
@@ -132,26 +133,26 @@
   <section class="desktop-show">
     <div class="relative">
       <div class="project-hex-black">
-        <a href="tunecan.html">
+        <a href="tunecan.html" class="hex-no-border" aria-label="TuneCan Case Study">
           <i class="fas fa-chevron-right fa-3x center font-white"></i>
         </a>
       </div>
-
-
       <div id="caseStudy_container">
         <div class="casestudy_position  background-orange">
           <div class="project-img">
-            <img src="images/tunecan.png" alt="Case Study Image" class="responsive-img-caseStudy bluster_img">
+            <img src="images/tunecan.png" alt="TuneCan Case Study Image" class="responsive-img-caseStudy bluster_img">
           </div>
         </div>
         <div class="casestudy_position  background-white">
           <div id="project-padding">
             <h1 class="font-black caseStudy_title">TuneCan</h1>
             <p class="font-black caseStudy_subtitle">Your music components anywhere, <br>anytime, all on the cloud</p>
+            <a role="button" href="tunecan.html" class="explore-button">Explore</a>
           </div>
         </div>
-
       </div>
+
+    </div>
     </div>
 
   </section>
@@ -185,7 +186,7 @@
         </ul>
       </div>
       <div class="design-padding">
-        <img src="images/Design_icon.png" alt="design icon" class="responsive-img icon-padding">
+        <img src="images/design_icon.png" alt="design icon" class="responsive-img icon-padding">
         <h3 id="design_process" class="font-white">Visual Design</h3>
         <div class="process-border"></div>
         <ul class="font-white">
@@ -197,8 +198,6 @@
       </div>
     </div>
   </section>
-
-
 
   <!-- Testimonials -->
   <section class="background-white">
@@ -213,19 +212,19 @@
         </div>
 
         <div class="mySlides">
-          <img src="images/testimonial_1.png" alt="testimonial picture" class="testimonial-image">
+          <img src="images/testimonial_1.png" alt="testimonial portrait" class="testimonial-image">
           <h4 class="author">Imogen</h4>
           <h5 class="endorse">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do esmod. That is really good to hear ri am glad you told me how you are doing"</h5>
         </div>
 
         <div class="mySlides">
-          <img src="images/testimonial_2.png" alt="testimonial picture" class="testimonial-image">
+          <img src="images/testimonial_2.png" alt="testimonial portrait" class="testimonial-image">
           <h4 class="author">Charles</h4>
           <h5 class="endorse">“Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod.”</h5>
         </div>
 
         <div class="mySlides">
-          <img src="images/testimonial_3.png" alt="testimonial picture" class="testimonial-image">
+          <img src="images/testimonial_3.png" alt="testimonial portrait" class="testimonial-image">
           <h4 class="author">Roxy</h4>
           <h5 class="endorse">“Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.”</h5>
         </div>
@@ -254,17 +253,17 @@
     <div>
       <ul class="social-icons">
         <li>
-          <a href="contact.html">
+          <a href="contact.html" aria-label="Contact">
             <i class="fas fa-envelope fa-2x font-white icon"></i>
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/eric-hellmuth">
+          <a href="https://www.linkedin.com/in/eric-hellmuth" aria-label="LinkedIn">
             <i class="fab fa-linkedin-in fa-2x font-white icon"></i>
           </a>
         </li>
         <li>
-          <a href="https://github.com/Careik?tab=repositories">
+          <a href="https://github.com/Careik?tab=repositories" aria-label="Github">
             <i class="fab fa-github fa-2x font-white icon"></i>
           </a>
         </li>
@@ -272,11 +271,6 @@
     </div>
     <h6 class="center font-white">Eric Hellmuth | Designed and Developed by Eric Hellmuth</h6>
   </footer>
-
-
-
-
-
 
 
 
@@ -326,6 +320,20 @@
       dots[slideIndex - 1].className += " active";
     }
   </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171556971-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-171556971-1');
+  </script>
+
 
 </body>
 

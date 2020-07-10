@@ -1,91 +1,99 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/79ac0a630f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
-  <body>
+<html lang="en" dir="ltr" class="background-black">
 
-    <!-- Nav Bar -->
-    <header class="background-black mobile-padding mobile-show">
-      <div class="logo">
-        <a href="index.html"><img src="images/logo.png" alt="Eric Hellmuth Logo"></a>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/79ac0a630f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Nav Bar -->
+  <header class="background-black mobile-padding mobile-show">
+    <div class="logo">
+      <a href="index.html"><img src="images/logo.png" alt="Eric Hellmuth Mobile Logo"></a>
+    </div>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <img src="images/logo.png" class="logo-menu" alt="Eric Hellmuth Navigation Logo">
+      <div class="overlay-content">
+        <a class="menu-non-selected" href="index.html">Work</a>
+        <a class="menu-non-selected" href="about.html">About</a>
+        <a class="menu-selected no-border " href="contact.html">Contact</a>
       </div>
-      <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <img src="images/logo.png" class="logo-menu" alt="Eric Hellmuth Image">
-        <div class="overlay-content">
-          <a class="menu-non-selected" href="index.html">Work</a>
-          <a class="menu-non-selected" href="about.html">About</a>
-          <a class="menu-selected no-border " href="contact.html">Contact</a>
+    </div>
+    <span class="burgerMenu" style="" onclick="openNav()">&#9776;</span>
+  </header>
+
+  <header class="background-black mobile-padding desktop-show">
+    <div class="logo">
+      <a href="index.html"><img src="images/logo_desktop.png" alt="Eric Hellmuth Logo"></a>
+    </div>
+    <div class="topnav">
+      <a class="no-border menu-contact-selected" id="no-hover-effect" href="contact.html">Contact</a>
+      <a class="menu-non-selected no-border" href="about.html">About</a>
+      <a class="menu-non-selected no-border" href="index.html">Work</a>
+    </div>
+  </header>
+
+  <!-- Hero Unit -->
+  <main class=" background-black">
+    <h1 class="contact-title font-white">Contact</h1>
+    <h2 class="contact-subtitle center font-white">Have a project you want to work on?</h2>
+    <h2 class="contact-subtitle center font-white">let's work together!</h2>
+
+  <div class="contact-container">
+    <form class="background-black" action="https://formspree.io/xrgyygqn" method="post">
+        <div class="label-center">
+          <label class="label-style" for="fullName">Full Name</label><br>
+          <input type="text" id="fullName" name="name" placeholder="First and Last Name"><br>
+          <label class="label-style" for="email">Email</label><br>
+          <input type="text" id="email" name="replyto" placeholder="Where can I reach you at?"><br>
+          <label class="label-style" for="message">Message</label><br>
+          <textarea type="text" id="message" name="message" placeholder="Brief message or a novel. I am ready." rows="4" cols="50"></textarea><br><br>
+          <button class="submit_style" type="submit">Submit</button>
         </div>
-      </div>
-      <span class="burgerMenu" style="" onclick="openNav()">&#9776;</span>
-    </header>
-
-    <header class="background-black mobile-padding desktop-show">
-      <div class="logo">
-        <a href="index.html"><img src="images/logo_desktop.png" alt="Eric Hellmuth Logo"></a>
-      </div>
-      <div class="topnav">
-        <a class="no-border menu-contact-selected" id="no-hover-effect" href="contact.html">Contact</a>
-        <a class="menu-non-selected no-border" href="about.html">About</a>
-        <a class="menu-non-selected no-border" href="index.html">Work</a>
-      </div>
-    </header>
-
-    <!-- Hero Unit -->
-    <main class="fullscreen-contact background-black">
-      <h1 class="contact-title font-white">Contact</h1>
-        <h2 class="contact-subtitle center font-white">Have a project you want to work on?</h2>
-        <h2 class="contact-subtitle center font-white">let's work together!</h2>
-
-
-    <form class="background-black contact-container" action="/action_page.php">
-      <input type="text" id="fullName" value="Your name"><br>
-      <input type="text" id="email" value="Your email"><br>
-      <input type="text" id="message" value="Message..."><br><br>
-      <input type="submit" value="Submit">
     </form>
-    </main>
+  </div>
+  </main>
 
-    <!-- Bottom Footer -->
-    <footer class="background-black nav-padding border-top">
-        <p class="font-white center">Thanks for stopping by! If you want to chat please do not hesitate to reach out.</p>
-        <p class="font-white center sendOff-spacing">See you around!</p>
-        <form action="contact.html" class="center">
-            <button class="nav-button">Contact</button>
-        </form>
-        <div>
-          <ul class="social-icons">
-            <li>
-              <a href="contact.html">
-              <i class="fas fa-envelope fa-2x font-white icon"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/eric-hellmuth">
-              <i class="fab fa-linkedin-in fa-2x font-white icon"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/Careik?tab=repositories">
-              <i class="fab fa-github fa-2x font-white icon"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <h6 class="center font-white">Eric Hellmuth | Designed and Developed by Eric Hellmuth</h6>
-    </footer>
+  <!-- Bottom Footer -->
+  <footer class="background-black nav-padding border-top footer-bottom">
+    <p class="font-white center">Thanks for stopping by! If you want to chat please do not hesitate to reach out.</p>
+    <p class="font-white center sendOff-spacing">See you around!</p>
+    <form action="contact.html" class="center">
+      <button class="nav-button">Contact</button>
+    </form>
+    <div>
+      <ul class="social-icons">
+        <li>
+          <a href="contact.html" aria-label="Contact">
+            <i class="fas fa-envelope fa-2x font-white icon"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/eric-hellmuth" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in fa-2x font-white icon"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Careik?tab=repositories" aria-label="Github">
+            <i class="fab fa-github fa-2x font-white icon"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <h6 class="center font-white">Eric Hellmuth | Designed and Developed by Eric Hellmuth</h6>
+  </footer>
 
 
-    <!-- Script for Nav Bar curtain menu -->
-    <script>
+  <!-- Script for Nav Bar curtain menu -->
+  <script>
     function openNav() {
       document.getElementById("myNav").style.height = "100%";
     }
@@ -93,6 +101,21 @@
     function closeNav() {
       document.getElementById("myNav").style.height = "0%";
     }
-    </script>
-  </body>
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171556971-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-171556971-1');
+  </script>
+
+</body>
+
 </html>
