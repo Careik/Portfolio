@@ -100,6 +100,8 @@ li {
 
 .background-svg {
   background-image: url(/images/homepage_1.svg);
+  width: auto;
+  height: auto;
 }
 
 .background-orange {
