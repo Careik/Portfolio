@@ -43,7 +43,7 @@ h5 {
 }
 
 h6 {
-  font-size:1.3rem;
+  font-size: 1.3rem;
 }
 
 p {
@@ -61,7 +61,7 @@ li {
 .surveyResults {
   font-family: 'Alfa Slab One';
   font-weight: normal;
-  font-size:2.4rem;
+  font-size: 2.4rem;
 }
 
 .width {
@@ -96,12 +96,6 @@ li {
 
 .background-black {
   background-color: #241F20;
-}
-
-.background-svg {
-  background-image: url(/images/homepage_1.svg);
-  width: auto;
-  height: auto;
 }
 
 .background-orange {
@@ -157,39 +151,52 @@ li {
 
 #project-padding {
   padding: 4vh 0rem 0rem 0rem;
-  }
+}
 
 #project-padding-bluster {
   padding: 4vh 0rem 0rem 0rem;
-  }
+}
 
 #project-padding-tunecan {
   padding: 4vh 0rem 0rem 0rem;
-  }
+}
 
 #backToTop {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: #EECD53; /* Set a background color */
-  color: #241F20; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: #EECD53;
+  /* Set a background color */
+  color: #241F20;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */
 }
 
 #backToTop:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #555;
+  /* Add a dark-grey background on hover */
   color: white;
 }
-
 
 .bluster-img-padding {
   margin: 4vh 0rem 5vh 0rem;
@@ -208,7 +215,6 @@ li {
 
 .caseStudy_subtitle {
   position: relative;
-
   left: 0;
   right: 0;
   margin: auto;
@@ -355,7 +361,7 @@ li {
 }
 
 .testimonial-hex-black {
-  cursor:pointer;
+  cursor: pointer;
   margin-top: 7.5rem;
   position: relative;
   width: 40px;
@@ -387,7 +393,6 @@ li {
 }
 
 /* White Hexagons */
-
 .project-hex-white {
   position: absolute;
   top: 85vh;
@@ -421,7 +426,7 @@ li {
 }
 
 .testimonial-hex-white {
-  cursor:pointer;
+  cursor: pointer;
   margin-top: 7.5rem;
   position: relative;
   width: 40px;
@@ -647,18 +652,17 @@ ul.social-icons {
 
 .footer-bottom {
   margin-top: 4.5rem;
-
 }
 
 .contact-container {
-    display: block;
+  display: block;
   padding: 5.5rem 3.5rem 10rem 3.5rem;
   text-align: center;
 }
 
 label.label-style {
   text-align: left;
-  color:white;
+  color: white;
   font-size: 1.8rem;
   font-weight: 300;
 }
@@ -693,10 +697,8 @@ input[type=text], select {
   border: none;
   cursor: pointer;
 }*/
-
-
 .submit_style {
-  width:100%;
+  width: 100%;
   max-width: 40rem;
   background-color: #EECD53;
   color: #241F20;
@@ -707,8 +709,6 @@ input[type=text], select {
   border: none;
   cursor: pointer;
 }
-
-
 
 #fullName {
   max-width: 40rem;
@@ -725,7 +725,6 @@ input[type=text], select {
   padding: 1rem 2rem 10rem 2rem;
   margin-top: 1rem;
 }
-
 
 /* Nav Bar */
 .overlay {
@@ -786,7 +785,6 @@ input[type=text], select {
 }
 
 @media screen and (max-height: 450px) {
-
   .overlay .closebtn {
     font-size: 40px;
     top: 15px;
@@ -834,9 +832,72 @@ input[type=text], select {
   width: 34%;
 }
 
+.persona-image {
+  border-radius: 50%;
+  width: 20%;
+  max-width: 200px;
+  margin-top: 2rem;
+}
+
+.quote {
+  font-style: italic;
+  padding: 0rem 3.5rem;
+  height: 155px;
+  max-width: 500px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.frustration-padding {
+  padding-top: 2rem;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.persona-info {
+  padding-bottom: 3rem;
+}
+
+.goals-container {
+  max-width: 375px;
+  height: 250px;
+  padding: 1rem 3.5rem;
+}
+
 .author {
   padding-top: 2rem;
   margin: auto;
+}
+
+.card-padding {
+  padding-bottom: 3.5rem;
+}
+
+.goals-padding {
+  padding: 1.5rem 0rem;
+}
+
+ul.text-align-left {
+  text-align: left;
+  margin: auto;
+}
+
+.text-align-left {
+  display: inline-block;
+  text-align: left;
+}
+
+.grid-align-left {
+  display: inline-block;
+  text-align: left;
+  width: 300px;
 }
 
 .endorse {
@@ -1070,7 +1131,7 @@ input[type=text], select {
 }
 
 .survey-img {
-  max-width:100%;
+  max-width: 100%;
 }
 
 .result-image-padding {
@@ -1116,8 +1177,6 @@ input[type=text], select {
   border: 0.2rem white solid;
 }
 
-
-
 .company-logo {
   display: inline-block;
   padding-top: 3.5rem;
@@ -1139,12 +1198,29 @@ span.firstLetter-red {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .analysis-icon {
   position: absolute;
   padding: 3.65rem 0rem 0rem 1rem;
+}
+
+.wide {
+  width: 100%;
+}
+
+.ca-image {
+  width: 60%;
+  height: auto;
+}
+
+.ca-padding {
+  padding-top: 2rem;
+}
+
+.hr-width {
+  width: 80%;
+  margin-top: 3.65rem;
 }
 
 .analysis-button {
@@ -1179,7 +1255,6 @@ span.firstLetter-red {
 .last-button-padding {
   padding-bottom: 5rem;
 }
-
 
 .responsive-img {
   max-width: 100%;
@@ -1226,6 +1301,28 @@ span.firstLetter-red {
   justify-content: center;
 }
 
+.priority {
+  font-size: 2.4rem;
+  padding: 3rem 0rem 0rem 0rem;
+  font-family: 'Alfa Slab One';
+  font-weight: normal;
+}
+
+.story-border {
+  border-bottom: 0.3rem solid #EECD53;
+  padding-bottom: .5rem;
+  width: 200px;
+}
+
+.user-story-grid {
+  padding: 0rem 3.5rem;
+}
+
+.user-padding {
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
 .template-preference-grid {
   display: grid;
   padding: 3.5rem;
@@ -1246,25 +1343,13 @@ span.firstLetter-red {
   display: none;
 }
 
-
-.color-palette {
-
-}
-
-
-
+.color-palette {}
 
 @media screen and (width: 320px) {
-  #hero > h1 {
+  #hero>h1 {
     font-size: 3.3rem;
   }
-
-
 }
-
-
-
-
 
 @media screen and (min-width: 575px) {
   h1 {
@@ -1313,8 +1398,6 @@ span.firstLetter-red {
     margin: auto;
   }
 
-
-
   #design_process {
     font-size: 2.4rem;
   }
@@ -1330,9 +1413,6 @@ span.firstLetter-red {
   .project-img {
     padding: 8rem 0rem 8rem 0rem;
   }
-
-
-
 
   input[type=submit] {
     max-width: 40rem;
@@ -1540,6 +1620,18 @@ span.firstLetter-red {
     margin: .3rem 0rem;
   }
 
+  .goals {
+    height: 250px;
+  }
+
+  .persona-grid {
+    margin: 0rem 5rem 0rem 5rem;
+    padding-top: 3.5rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 1rem;
+    justify-content: center;
+  }
 
   .logo {
     padding-top: .75em;
@@ -1603,14 +1695,28 @@ span.firstLetter-red {
     padding: 0rem 3.5rem 0rem 3.5rem;
   }
 
-
-
-  .three-col {
+  .four-col {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 4.5rem 3.5rem;
+    margin: auto;
+    max-width: 1500px;
+  }
+
+  .four-col-padding {
+    padding-left: 50px;
+  }
+
+  .container-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-around;
-    padding: 4.5rem 0rem;
-    max-width: 1200px;
+  }
+
+  .card-padding {
+    padding-bottom: 5rem;
   }
 
   .persona-padding {
@@ -1629,16 +1735,12 @@ span.firstLetter-red {
     display: flex;
     flex-direction: row;
     align-items: center;
-
     margin: auto;
-
   }
 
   .flowchart-padding {
     padding: 3.5rem 0rem 0rem 0rem;
   }
-
-
 
   .typography-padding {
     padding: 2rem 0rem 3.5rem 5rem;
@@ -1666,6 +1768,18 @@ span.firstLetter-red {
     grid-row-gap: 3.5rem;
     grid-column-gap: 3.5rem;
     justify-content: center;
+  }
+
+  .user-story-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 20rem;
+  }
+
+  .user-padding {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
   }
 
   .desktop-max {
@@ -1748,8 +1862,6 @@ span.firstLetter-red {
     max-height: 600px;
   }
 
-
-
   .caseStudy_subtitle {
     position: relative;
     top: 20vh;
@@ -1814,7 +1926,6 @@ span.firstLetter-red {
   .relative {
     position: relative;
   }
-
 }
 
 @media screen and (min-width: 1199px) {
@@ -1890,29 +2001,36 @@ span.firstLetter-red {
       padding: 1rem 1rem;
       margin: .5rem 20rem 0rem 0rem;
     }
-}
 
-@media screen and (min-width: 1700px) {
-  .logo {
-    padding-top: .75em;
-    float: left;
-    margin-left: 25rem;
+    .container-flex {
+      margin: 0rem 15rem;
+    }
   }
 
-  .desktop-name-padding {
-    margin-left: 25rem;
-  }
+  @media screen and (min-width: 1700px) {
+    .logo {
+      padding-top: .75em;
+      float: left;
+      margin-left: 25rem;
+    }
 
-  .topnav a.high-res-padding {
-    padding: 1rem 1rem;
-    margin: .5rem 25rem 0rem 0rem;
-  }
+    .desktop-name-padding {
+      margin-left: 25rem;
+    }
 
+    .topnav a.high-res-padding {
+      padding: 1rem 1rem;
+      margin: .5rem 25rem 0rem 0rem;
+    }
 
-  .topnav a.menu-contact-selected {
-    color: #241F20;
-    background-color: #EECD53;
-    padding: 1rem 1rem;
-    margin: .5rem 25rem 0rem 0rem;
+    .background-svg {
+      background-image: url(/images/homepage_1.svg);
+    }
+
+    .topnav a.menu-contact-selected {
+      color: #241F20;
+      background-color: #EECD53;
+      padding: 1rem 1rem;
+      margin: .5rem 25rem 0rem 0rem;
+    }
   }
-}
