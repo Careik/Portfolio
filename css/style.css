@@ -550,7 +550,7 @@ li {
 
 
 .label-padding {
-  padding: .5rem 0rem 3.5rem 0rem;
+  padding: .5rem 0rem 0rem 0rem;
 }
 
 .label-padding-top {
@@ -846,7 +846,16 @@ input[type=text], select {
 
 .testimonial-image {
   border-radius: 50%;
-  width: 34%;
+   width: 125px;
+}
+
+.testimonial {
+  text-align:center;
+}
+
+.testimonial-padding {
+  padding-top: 1.5rem;
+  text-align: center;
 }
 
 .persona-image {
@@ -927,11 +936,11 @@ ul.text-align-left {
 }
 
 .endorse {
-  padding: 2.5rem 0rem 2.5rem 0rem;
+  padding: 2.5rem 3.5rem 7.5rem 3.5rem;
   line-height: 2.2rem;
-  height: 20rem;
   max-width: 50rem;
-  text-align: center;
+  text-align: left;
+  font-style: italic;
 }
 
 .testimonial-next {
@@ -1525,13 +1534,7 @@ span.firstLetter-red {
     justify-content: center;
   }
 
-  .endorse {
-    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
-    line-height: 2.2rem;
-    height: 16rem;
-    max-width: 50rem;
-    text-align: center;
-  }
+
 
   .color-palette {
     max-width: 600px;
@@ -1611,6 +1614,10 @@ span.firstLetter-red {
     background-color: #EECD53;
     padding: 1rem 1rem;
     margin: .5rem 10rem 0rem 0rem;
+  }
+
+  .label-padding {
+    padding: .5rem 0rem 3.5rem 0rem;
   }
 
   .img-size {

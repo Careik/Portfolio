@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="I am a UX Designer from Upstate, New York">
   <title>Eric Hellmuth - UX Design</title>
   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
@@ -37,7 +37,7 @@
     </section>
 
     <section class="desktop-show">
-      <header class="desktop-show">
+      <section class="desktop-show">
         <div class="logo">
           <a href="index.html"><img src="images/logo_desktop.png" alt="Eric Hellmuth Logo"></a>
         </div>
@@ -47,28 +47,28 @@
           <a class="menu-non-selected no-border" href="about.html">About</a>
           <a class="menu-selected" href="index.html">Work</a>
         </div>
-      </header>
+      </section>
     </section>
 
 
 
     <!-- Hero unit -->
     <main>
-    <div id="hero">
-      <h1 class="font-white desktop-name-padding">Hey, I am<br> Eric Hellmuth</h1>
-      <h2 class="font-white desktop-name-padding">UI Designer</h2>
-      <div class="border desktop-name-padding"></div>
-      <h2 class="font-white location-padding desktop-name-padding">Albany, New York</h2>
-      <div class="recent-work-position center mobile-show">
-        <p class="font-white center">Most Recent Work</p>
-        <a href="#recent-projects-mobile" aria-label="Recent Work"><i class="fas fa-chevron-circle-down fa-3x font-white"></i></a>
-      </div>
+      <div id="hero">
+        <h1 class="font-white desktop-name-padding">Hey, I am<br> Eric Hellmuth</h1>
+        <h2 class="font-white desktop-name-padding">UI Designer</h2>
+        <div class="border desktop-name-padding"></div>
+        <h2 class="font-white location-padding desktop-name-padding">Albany, New York</h2>
+        <div class="recent-work-position center mobile-show">
+          <p class="font-white center">Most Recent Work</p>
+          <a href="#recent-projects-mobile" aria-label="Recent Work"><i class="fas fa-chevron-circle-down fa-3x font-white"></i></a>
+        </div>
       </div>
       <div class="recent-work-position center desktop-show">
         <p class="font-white center">Most Recent Work</p>
         <a href="#recent-projects-desktop" aria-label="Recent Work"><i class="fas fa-chevron-circle-down fa-3x font-white"></i></a>
       </div>
-    </div>
+      </div>
   </header>
 
 
@@ -213,16 +213,19 @@
   <!-- Testimonials -->
   <section class="background-white">
     <h2 class="testimonial-title">Testimonials</h2>
-    <div class="slideshow-container">
-      <div class="testimonial-grid">
-        <div class="mySlides">
-          <img src="images/testimonial_1.jfif" alt="Testimonial portrait of Becky Olsen" class="testimonial-image">
-          <h4 class="author">Becky Olsen</h4>
-          <h5 class="endorse">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do esmod. That is really good to hear ri am glad you told me how you are doing"</h5>
-        </div>
-      </div>
+
+    <div class="testimonial">
+      <img src="images/testimonial_1.jfif" alt="Testimonial portrait of Becky Olsen" class="testimonial-image responsive-img">
+    </div>
+    <h4 class="author center">Becky Olsen</h4>
+    <h5 class="testimonial-padding">Educator | Bloc/Thinkful</h5>
+    <p class="endorse center">“Eric was a mentee of mine for several months during his apprenticeship at Bloc's UX design program. We would
+      meet once a week to discuss his work, and his goals. Eric is always receptive to constructive criticism, holds himself responsible
+      for meeting his goals, and produces quality work. I would be proud to have Eric on my team anytime."</p>
+
+
   </section>
-</main>
+  </main>
 
   <!-- Bottom Footer -->
   <footer class="background-black nav-padding">
