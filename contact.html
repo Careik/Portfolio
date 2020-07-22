@@ -17,34 +17,45 @@
 <body>
 
   <!-- Nav Bar -->
-  <header class="background-black mobile-padding mobile-show">
-    <div class="logo">
-      <a href="index.html"><img src="images/logo.png" alt="Eric Hellmuth Mobile Logo"></a>
-    </div>
-    <div id="myNav" class="overlay">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <img src="images/logo.png" class="logo-menu" alt="Eric Hellmuth Navigation Logo">
-      <div class="overlay-content">
-        <a class="menu-non-selected" href="index.html">Work</a>
-        <a class="menu-non-selected" href="about.html">About</a>
-        <a class="menu-non-selected" href="images/Resume.pdf" target="_blank">Resume</a>
-        <a class="menu-selected no-border " href="contact.html">Contact</a>
+  <header id="header">
+    <nav>
+    <section class="mobile-show">
+      <div class="logo">
+        <img src="images/logo.png" alt="Eric Hellmuth Logo">
       </div>
-    </div>
-    <span class="burgerMenu" style="" onclick="openNav()">&#9776;</span>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <img src="images/logo.png" class="logo-menu" alt="Eric Hellmuth Image">
+        <div class="overlay-content">
+          <a class="menu-non-selected" href="index.html">Work</a>
+          <a class="menu-non-selected" href="about.html">About</a>
+          <a class="menu-non-selected" href="images/Resume.pdf" target="_blank">Resume</a>
+          <a class="menu-selected no-border " href="contact.html">Contact</a>
+        </div>
+      </div>
+      <span class="burgerMenu" style="" onclick="openNav()">&#9776;</span>
+    </section>
+
+    <section class="desktop-show">
+      <section class="desktop-show">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo_desktop.png" alt="Eric Hellmuth Logo"></a>
+        </div>
+        <div class="topnav">
+          <a class="no-border menu-contact-selected" id="no-hover-effect" href="contact.html">Contact</a>
+          <a class="menu-non-selected no-border" href="images/Resume.pdf" target="_blank">Resume</a>
+          <a class="menu-non-selected no-border" href="about.html">About</a>
+          <a class="menu-non-selected no-border" href="index.html">Work</a>
+        </div>
+      </section>
+    </section>
+  </nav>
   </header>
 
-  <header class="background-black mobile-padding desktop-show">
-    <div class="logo">
-      <a href="index.html"><img src="images/logo_desktop.png" alt="Eric Hellmuth Logo"></a>
-    </div>
-    <div class="topnav">
-      <a class="no-border menu-contact-selected" id="no-hover-effect" href="contact.html">Contact</a>
-      <a class="menu-non-selected no-border" href="images/Resume.pdf" target="_blank">Resume</a>
-      <a class="menu-non-selected no-border" href="about.html">About</a>
-      <a class="menu-non-selected no-border" href="index.html">Work</a>
-    </div>
-  </header>
+
+
+
+
 
   <!-- Hero Unit -->
   <main class=" background-black">

@@ -18,8 +18,9 @@
 <body>
 
   <!-- Nav Bar and Name (100% VH) -->
-  <section class="background-black background-svg fullscreen">
-  <header>
+
+  <header id="header">
+    <nav>
     <section class="mobile-show">
       <div class="logo">
         <img src="images/logo.png" alt="Eric Hellmuth Logo">
@@ -43,19 +44,21 @@
           <a href="index.html"><img src="images/logo_desktop.png" alt="Eric Hellmuth Logo"></a>
         </div>
         <div class="topnav">
-          <a class="no-border menu-contact high-res-padding" href="contact.html">Contact</a>
+          <a class="no-border menu-contact-homepage high-res-padding" href="contact.html">Contact</a>
           <a class="menu-non-selected no-border" href="images/Resume.pdf" target="_blank">Resume</a>
           <a class="menu-non-selected no-border" href="about.html">About</a>
           <a class="menu-selected" href="index.html">Work</a>
         </div>
       </section>
     </section>
-    </header>
+  </nav>
+  </header>
 
 
 
-    <!-- Hero unit -->
-    <main>
+  <!-- Hero unit -->
+  <main>
+    <section class="background-black background-svg fullscreen">>
       <div id="hero">
         <h1 class="font-white desktop-name-padding">Hey, I am<br> Eric Hellmuth</h1>
         <h2 class="font-white desktop-name-padding">UI Designer</h2>
@@ -75,11 +78,11 @@
 
 
 
-  <!-- Case Studies **These are coded 2 different ways for desktop and mobile -->
+    <!-- Case Studies **These are coded 2 different ways for desktop and mobile -->
 
-  <!-- Mobile Style -->
-  <!-- Bluster Mobile -->
-  <!--
+    <!-- Mobile Style -->
+    <!-- Bluster Mobile -->
+    <!--
   <section id="recent-projects-mobile" class="background-bluster caseStudy_fullscreen mobile-show">
     <div class="casestudy_position">
       <div id="project-padding-bluster">
@@ -96,29 +99,29 @@
   </section>
 -->
 
-  <!-- TuneCan Mobile -->
-  <section id="recent-projects-mobile" class="background-orange caseStudy_fullscreen caseStudy-padding mobile-show">
-    <div class="casestudy_position">
-      <div id="project-padding-tunecan">
-        <h1 class="font-white">TuneCan</h1>
-        <p class="font-white caseStudy_subtitle">Your music components anywhere, anytime, all on the cloud</p>
-      </div>
-      <div class="tunecan-img-padding">
-        <img src="images/tunecan.png" alt="TuneCan Case Study Overview Image" class="responsive-img">
-      </div>
-      <div class="project-hex-black">
-        <div href="tunecan.html" class="hex-no-border">
-          <i class="fas fa-chevron-right fa-3x center font-white"></i>
+    <!-- TuneCan Mobile -->
+    <section id="recent-projects-mobile" class="background-orange caseStudy_fullscreen caseStudy-padding mobile-show">
+      <div class="casestudy_position">
+        <div id="project-padding-tunecan">
+          <h1 class="font-white">TuneCan</h1>
+          <p class="font-white caseStudy_subtitle">Your music components anywhere, anytime, all on the cloud</p>
+        </div>
+        <div class="tunecan-img-padding">
+          <img src="images/tunecan.png" alt="TuneCan Case Study Overview Image" class="responsive-img">
+        </div>
+        <div >
+
+            <a role="button" href="tunecan.html" class="explore-button">Explore</a>
+
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
 
 
-  <!-- Desktop Style -->
-  <!-- Bluster Desktop -->
-  <!--
+    <!-- Desktop Style -->
+    <!-- Bluster Desktop -->
+    <!--
   <section id="recent-projects-desktop" class="desktop-show">
     <div class="relative">
       <div class="project-hex-black">
@@ -142,90 +145,90 @@
   </section>
 -->
 
-  <!-- TuneCan Desktop -->
-  <section id="recent-projects-desktop" class="desktop-show">
-    <div class="relative">
-      <div class="project-hex-black">
-        <div class="hex-no-border" aria-label="TuneCan Case Study">
-          <i class="fas fa-chevron-right fa-3x center font-white"></i>
-        </div>
-      </div>
-      <div id="caseStudy_container">
-        <div class="casestudy_position  background-orange">
-          <a role="button" href="tunecan.html" class="project-img">
-            <img src="images/tunecan.png" alt="TuneCan Case Study Overview Image" class="responsive-img-caseStudy bluster_img">
-          </a>
-        </div>
-        <div class="casestudy_position  background-white">
-          <div id="project-padding">
-            <h1 class="font-black caseStudy_title">TuneCan</h1>
-            <p class="font-black caseStudy_subtitle">Your music components anywhere, <br>anytime, all on the cloud</p>
-            <a role="button" href="tunecan.html" class="explore-button">Explore</a>
+    <!-- TuneCan Desktop -->
+    <section id="recent-projects-desktop" class="desktop-show">
+      <div class="relative">
+        <div class="project-hex-black">
+          <div class="hex-no-border" aria-label="TuneCan Case Study">
+            <i class="fas fa-chevron-right fa-3x center font-white"></i>
           </div>
         </div>
+        <div id="caseStudy_container">
+          <div class="casestudy_position  background-orange">
+            <a role="button" href="tunecan.html" class="project-img">
+              <img src="images/tunecan.png" alt="TuneCan Case Study Overview Image" class="responsive-img-caseStudy bluster_img">
+            </a>
+          </div>
+          <div class="casestudy_position  background-white">
+            <div id="project-padding">
+              <h1 class="font-black caseStudy_title">TuneCan</h1>
+              <p class="font-black caseStudy_subtitle">Your music components anywhere, <br>anytime, all on the cloud</p>
+              <a role="button" href="tunecan.html" class="explore-button">Explore</a>
+            </div>
+          </div>
+        </div>
+
       </div>
 
-    </div>
+    </section>
 
-  </section>
-
-  <!-- My Design Process -->
-  <section class="background-black">
-    <div>
-      <h2 class="font-white process-title center">My Design Process</h2>
-    </div>
-    <div class="process-flex center">
+    <!-- My Design Process -->
+    <section class="background-black">
       <div>
-        <img src="images/flask_icon.png" alt="research icon" class="responsive-img icon-padding">
-        <h3 class="font-white design_process">Research</h3>
-        <div class="process-border"></div>
-        <ul class="font-white">
-          <li>User Surveys</li>
-          <li>Competitive Analysis</li>
-          <li>Personas</li>
-          <li>User Stories</li>
-        </ul>
+        <h2 class="font-white process-title center">My Design Process</h2>
       </div>
-      <div>
-        <img src="images/info_icon.png" alt="Information Architecture icon" class="responsive-img icon-padding">
-        <h3 class="font-white design_process">Information Architecture</h3>
-        <div class="process-border"></div>
-        <ul class="font-white">
-          <li>User Flows</li>
-          <li>Site Maps</li>
-          <li>Content Strategy</li>
-          <li class="font-black desktop-show"> - </li>
-        </ul>
+      <div class="process-flex center">
+        <div>
+          <img src="images/flask_icon.png" alt="research icon" class="responsive-img icon-padding">
+          <h3 class="font-white design_process">Research</h3>
+          <div class="process-border"></div>
+          <ul class="font-white">
+            <li>User Surveys</li>
+            <li>Competitive Analysis</li>
+            <li>Personas</li>
+            <li>User Stories</li>
+          </ul>
+        </div>
+        <div>
+          <img src="images/info_icon.png" alt="Information Architecture icon" class="responsive-img icon-padding">
+          <h3 class="font-white design_process">Information Architecture</h3>
+          <div class="process-border"></div>
+          <ul class="font-white">
+            <li>User Flows</li>
+            <li>Site Maps</li>
+            <li>Content Strategy</li>
+            <li class="font-black desktop-show"> - </li>
+          </ul>
+        </div>
+        <div class="design-padding">
+          <img src="images/design_icon.png" alt="design icon" class="responsive-img icon-padding">
+          <h3 class="font-white design_process">Visual Design</h3>
+          <div class="process-border"></div>
+          <ul class="font-white">
+            <li>Branding</li>
+            <li>Color Palettes</li>
+            <li>Low and High Fidelity Mockups</li>
+            <li>User Testing</li>
+          </ul>
+        </div>
       </div>
-      <div class="design-padding">
-        <img src="images/design_icon.png" alt="design icon" class="responsive-img icon-padding">
-        <h3 class="font-white design_process">Visual Design</h3>
-        <div class="process-border"></div>
-        <ul class="font-white">
-          <li>Branding</li>
-          <li>Color Palettes</li>
-          <li>Low and High Fidelity Mockups</li>
-          <li>User Testing</li>
-        </ul>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="background-white">
+      <h2 class="testimonial-title">Testimonials</h2>
+
+      <div class="testimonial">
+        <img src="images/testimonial_1.jfif" alt="Testimonial portrait of Becky Olsen" class="testimonial-image responsive-img">
       </div>
-    </div>
-  </section>
-
-  <!-- Testimonials -->
-  <section class="background-white">
-    <h2 class="testimonial-title">Testimonials</h2>
-
-    <div class="testimonial">
-      <img src="images/testimonial_1.jfif" alt="Testimonial portrait of Becky Olsen" class="testimonial-image responsive-img">
-    </div>
-    <h4 class="author center">Becky Olsen</h4>
-    <h5 class="testimonial-padding">Educator | Bloc/Thinkful</h5>
-    <p class="endorse center">“Eric was a mentee of mine for several months during his apprenticeship at Bloc's UX design program. We would
-      meet once a week to discuss his work, and his goals. Eric is always receptive to constructive criticism, holds himself responsible
-      for meeting his goals, and produces quality work. I would be proud to have Eric on my team anytime."</p>
+      <h4 class="author center">Becky Olsen</h4>
+      <h5 class="testimonial-padding">Educator | Bloc/Thinkful</h5>
+      <p class="endorse center">“Eric was a mentee of mine for several months during his apprenticeship at Bloc's UX design program. We would
+        meet once a week to discuss his work, and his goals. Eric is always receptive to constructive criticism, holds himself responsible
+        for meeting his goals, and produces quality work. I would be proud to have Eric on my team anytime."</p>
 
 
-  </section>
+    </section>
   </main>
 
   <!-- Bottom Footer -->

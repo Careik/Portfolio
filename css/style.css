@@ -89,6 +89,16 @@ li {
   background-color: #FCFCFC;
 }
 
+#header {
+  margin: 0rem 0rem 0rem 0rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(36, 31, 32, 1.0);
+  z-index: 10;
+  padding: 1.5rem;
+}
+
 .background-whitest {
   background-color: #FFFFFF;
   padding: 3.5rem 0rem;
@@ -252,6 +262,9 @@ li {
 /* Homepage CSS */
 .logo {
   display: inline-block;
+  margin-top: 0rem;
+  float: left;
+  margin: 2rem 0rem 0rem 2rem;
 }
 
 .border {
@@ -277,6 +290,7 @@ li {
 }
 
 .burgerMenu {
+  margin: 2rem 2rem 0rem 0rem;
   font-size: 3rem;
   cursor: pointer;
   float: right;
@@ -548,7 +562,6 @@ li {
   margin: auto;
 }
 
-
 .label-padding {
   padding: .5rem 0rem 0rem 0rem;
 }
@@ -596,10 +609,6 @@ li {
 }
 
 /* Footer CSS */
-.nav-padding {
-  padding: 3.5rem;
-}
-
 .nav-button {
   cursor: pointer;
   background-color: #241F20;
@@ -636,7 +645,7 @@ ul.social-icons {
 
 /* About CSS */
 .about-title {
-  padding-top: 4rem;
+  padding-top: 10rem;
   text-align: center;
 }
 
@@ -656,9 +665,34 @@ ul.social-icons {
   color: #241F20;
 }
 
+.explore-button {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  background-color: #3866A8;
+  color: #FCFCFC;
+  border-bottom: 0rem;
+  padding: 1rem 8rem 1rem 8rem;
+  width: 20rem;
+  max-width: 660px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  position: relative;
+  top: 10vh;
+}
+
+.explore-button:hover {
+  color: #3866A8;
+  background-color: white;
+  border: 0.2rem #3877A8 solid;
+}
+
+.nav-padding {
+  padding: 3.5rem;
+}
+
 /* Contact CSS */
 .contact-title {
-  padding-top: 3.5rem;
+  padding-top: 10rem;
   padding-bottom: 1rem;
   text-align: center;
 }
@@ -846,11 +880,11 @@ input[type=text], select {
 
 .testimonial-image {
   border-radius: 50%;
-   width: 125px;
+  width: 125px;
 }
 
 .testimonial {
-  text-align:center;
+  text-align: center;
 }
 
 .testimonial-padding {
@@ -889,7 +923,7 @@ input[type=text], select {
 
 .template-drawings-flex {
   padding: 3.5rem 3.5rem 3.5rem 3.5rem;
-  display: block ;
+  display: block;
   flex-direction: column;
   margin: auto;
   width: 100%;
@@ -1076,7 +1110,7 @@ ul.text-align-left {
 /* TuneCan */
 .caseStudy-title-padding {
   font-family: 'Poppins', sans-seif;
-  padding: 3.5rem 0rem 3.5rem 0rem;
+  padding: 10rem 0rem 3.5rem 0rem;
 }
 
 .caseStudy-description {
@@ -1319,7 +1353,6 @@ span.firstLetter-red {
   grid-column-gap: 1rem;
   justify-content: center;
 }*/
-
 .logo-drawing-grid {
   display: flex;
   flex-direction: row;
@@ -1475,7 +1508,7 @@ span.firstLetter-red {
 
   .caseStudy-title-padding {
     font-family: 'Poppins', sans-seif;
-    padding: 4rem 0rem 3rem 0rem;
+    padding: 10rem 0rem 3rem 0rem;
   }
 
   .caseStudy-description {
@@ -1523,8 +1556,6 @@ span.firstLetter-red {
     max-height: 539px;
   }
 
-
-
   .lowFidelity-grid {
     display: grid;
     padding: 3.5rem 7.5rem 3.5rem 7.5rem;
@@ -1533,8 +1564,6 @@ span.firstLetter-red {
     grid-column-gap: 3.5rem;
     justify-content: center;
   }
-
-
 
   .color-palette {
     max-width: 600px;
@@ -1593,6 +1622,15 @@ span.firstLetter-red {
     text-decoration: none;
     font-size: 1.8rem;
     font-weight: 700;
+  }
+
+  #header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(36, 31, 32, 1.0);
+    z-index: 10;
+    padding: 1.5rem;
   }
 
   .topnav a.menu-contact {
@@ -1673,6 +1711,15 @@ span.firstLetter-red {
     margin: .3rem 0rem;
   }
 
+  .menu-contact-homepage {
+    background-color: transparent;
+    border: 0.1rem solid #EECD53;
+    color: #EECD53;
+    padding: 1rem 1rem;
+    font-size: 1.8rem;
+    margin: .3rem 0rem;
+  }
+
   .goals {
     height: 250px;
   }
@@ -1687,9 +1734,13 @@ span.firstLetter-red {
   }
 
   .logo {
-    padding-top: .75em;
+    margin-top: 0rem;
     float: left;
     margin-left: 10rem;
+  }
+
+  .logo-padding {
+    padding: 4rem;
   }
 
   #no-hover-effect:hover {
@@ -1719,7 +1770,7 @@ span.firstLetter-red {
 
   .caseStudy-title-padding {
     font-family: 'Poppins', sans-seif;
-    padding: 2rem 0rem 1rem 0rem;
+    padding: 10rem 0rem 1rem 0rem;
   }
 
   .caseStudy-description {
@@ -1729,7 +1780,7 @@ span.firstLetter-red {
 
   .template-drawings-flex {
     padding: 3.5rem 3.5rem 3.5rem 3.5rem;
-    display: block ;
+    display: block;
     flex-direction: column;
     margin: auto;
     width: 60%;
@@ -2022,7 +2073,7 @@ span.firstLetter-red {
   }
 
   .logo {
-    padding-top: .75em;
+    padding-top: .5em;
     float: left;
     margin-left: 15rem;
   }
@@ -2071,7 +2122,7 @@ span.firstLetter-red {
 
   @media screen and (min-width: 1700px) {
     .logo {
-      padding-top: .75em;
+      padding-top: .5em;
       float: left;
       margin-left: 25rem;
     }
