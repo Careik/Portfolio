@@ -42,6 +42,12 @@ h5 {
   font-weight: 300;
 }
 
+figcaption {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 h6 {
   font-size: 1.3rem;
 }
@@ -1412,9 +1418,11 @@ span.firstLetter-red {
 .template-drawings-grid {
   display: grid;
   padding: 3.5rem;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   grid-column-gap: 3.5rem;
+  grid-row-gap: 3rem;
   justify-content: center;
+  text-align: center;
 }
 
 .lowFidelity-grid {
@@ -1702,6 +1710,7 @@ span.firstLetter-red {
 
 
 
+
   .topnav a.menu-contact {
     color: #EECD53;
     margin: .5rem 10rem 0rem 0rem;
@@ -1856,6 +1865,14 @@ span.firstLetter-red {
     margin: auto;
     width: 60%;
     height: auto;
+  }
+
+  .template-drawings-grid {
+    display: grid;
+    padding: 3.5rem;
+    grid-template-columns: auto auto;
+    grid-column-gap: 3.5rem;
+    justify-content: center;
   }
 
   .caseStudy-img {
