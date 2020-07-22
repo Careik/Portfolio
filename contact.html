@@ -20,9 +20,9 @@
   <header id="header">
     <nav>
     <section class="mobile-show">
-      <div class="logo">
+      <figure class="logo">
         <img src="images/logo.png" alt="Eric Hellmuth Logo">
-      </div>
+      </figure>
       <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <img src="images/logo.png" class="logo-menu" alt="Eric Hellmuth Image">
@@ -38,9 +38,9 @@
 
     <section class="desktop-show">
       <section class="desktop-show">
-        <div class="logo">
+        <figure class="logo">
           <a href="index.html"><img src="images/logo_desktop.png" alt="Eric Hellmuth Logo"></a>
-        </div>
+        </figure>
         <div class="topnav">
           <a class="no-border menu-contact-selected" id="no-hover-effect" href="contact.html">Contact</a>
           <a class="menu-non-selected no-border" href="images/Resume.pdf" target="_blank">Resume</a>
@@ -61,11 +61,11 @@
   <main class=" background-black">
     <h1 class="contact-title font-white">Contact</h1>
     <h2 class="contact-subtitle center font-white">Have a project you want to work on?</h2>
-    <h2 class="contact-subtitle center font-white">let's work together!</h2>
+    <h2 class="contact-subtitle center font-white"><a href="mailto:hellmuth07@gmail.com" aria-label="Contact" target="_blank" class="link bold">Email me</a> or contact me below!</h2>
 
   <div class="contact-container">
     <form class="background-black" action="https://formspree.io/xrgyygqn" method="post">
-        <div class="label-center">
+        <section class="label-center">
           <label class="label-style" for="fullName">Full Name</label>
           <input type="text" id="fullName" name="name" placeholder="First and Last Name">
           <label class="label-style" for="email">Email</label>
@@ -73,7 +73,7 @@
           <label class="label-style" for="message">Message</label>
           <textarea id="message" name="message" placeholder="A description of what I can help you with." rows="4" cols="50"></textarea>
           <button class="submit_style" type="submit">Submit</button>
-        </div>
+        </section>
     </form>
   </div>
   </main>
@@ -85,7 +85,7 @@
     <form action="contact.html" class="center">
       <button class="nav-button">Contact</button>
     </form>
-    <div>
+    <section>
       <ul class="social-icons">
         <li>
           <a href="mailto:hellmuth07@gmail.com" aria-label="Contact" target="_blank">
@@ -103,7 +103,7 @@
           </a>
         </li>
       </ul>
-    </div>
+    </section>
     <h6 class="center font-white">Eric Hellmuth | Designed and Developed by Eric Hellmuth</h6>
   </footer>
 
