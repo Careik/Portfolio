@@ -2145,6 +2145,12 @@ span.firstLetter-red {
     max-width: 600px;
   }
 
+  li {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+  }
+
   .title-padding {
     margin: auto;
   }
