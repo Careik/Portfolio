@@ -264,7 +264,7 @@ li {
   display: inline-block;
   margin-top: 0rem;
   float: left;
-  margin: 2rem 0rem 0rem 2rem;
+  margin: 1.75rem 0rem 0rem 2rem;
 }
 
 .border {
@@ -566,6 +566,10 @@ li {
   padding: .5rem 0rem 0rem 0rem;
 }
 
+.highres-label-padding {
+  padding: .5rem 0rem 1.5rem 0rem;
+}
+
 .label-padding-top {
   padding: 1rem 0rem 0rem 0rem;
 }
@@ -832,7 +836,7 @@ input[type=text], select {
 }
 
 .logo-menu {
-  padding: 3.5rem;
+  padding: 3.3rem 3.5rem 0rem 3.5rem;
 }
 
 @media screen and (max-height: 450px) {
@@ -899,6 +903,13 @@ input[type=text], select {
   margin-top: 2rem;
 }
 
+.persona-quote {
+  font-style: italic;
+  padding: 1rem 2rem 1rem 2rem;
+  height: auto;
+  max-width: 500px;
+}
+
 .quote {
   font-style: italic;
   padding: 0rem 3.5rem;
@@ -922,12 +933,16 @@ input[type=text], select {
 }
 
 .template-drawings-flex {
-  padding: 3.5rem 3.5rem 3.5rem 3.5rem;
+  padding: 3.5rem 3.5rem 2rem 3.5rem;
   display: block;
   flex-direction: column;
   margin: auto;
   width: 100%;
   height: auto;
+}
+
+.bottom-padding {
+   padding-bottom: 3.5rem;
 }
 
 .persona-info {
@@ -936,7 +951,7 @@ input[type=text], select {
 
 .goals-container {
   max-width: 375px;
-  height: 250px;
+  height: auto;
   padding: 1rem 3.5rem;
 }
 
@@ -1074,31 +1089,10 @@ ul.text-align-left {
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
-  from {
-    opacity: .4
-  }
-
-  to {
-    opacity: 1
-  }
-}
-
-@keyframes fade {
-  from {
-    opacity: .4
-  }
-
-  to {
-    opacity: 1
-  }
-}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
@@ -1633,6 +1627,20 @@ span.firstLetter-red {
     padding: 1.5rem;
   }
 
+  .persona-quote {
+    font-style: italic;
+    padding: 1rem 2rem 0rem 2rem;
+    height: 140px;
+    max-width: 500px;
+  }
+
+  .goals-container {
+    max-width: 375px;
+    height: 225px;
+    padding: 1rem 3.5rem;
+  }
+
+
   .topnav a.menu-contact {
     color: #EECD53;
     margin: .5rem 10rem 0rem 0rem;
@@ -1657,6 +1665,8 @@ span.firstLetter-red {
   .label-padding {
     padding: .5rem 0rem 3.5rem 0rem;
   }
+
+
 
   .img-size {
     width: 50%;
