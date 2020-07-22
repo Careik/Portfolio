@@ -6,7 +6,7 @@
                   if(scroll_pos < $(window).height()) {
                       $("#header").css('background', 'transparent');
                   } else {
-                      $("#header").css('background 1s ease-in-out', 'rgba(36, 31, 32, 1.0)');
+                      $("#header").css('background', 'rgba(36, 31, 32, 1.0)');
                   }
               });
           });
